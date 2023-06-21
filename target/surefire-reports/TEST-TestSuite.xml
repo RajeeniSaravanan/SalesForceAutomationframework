@@ -1,0 +1,1291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="818.125" tests="38" errors="0" skipped="0" failures="28">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\saravanan.somu\eclipse-workspace\SeleniumAutomationFramework\target\test-classes;C:\Users\saravanan.somu\eclipse-workspace\SeleniumAutomationFramework\target\classes;C:\Users\saravanan.somu\.m2\repository\org\apache\poi\poi-ooxml\4.1.2\poi-ooxml-4.1.2.jar;C:\Users\saravanan.somu\.m2\repository\org\apache\poi\poi\4.1.2\poi-4.1.2.jar;C:\Users\saravanan.somu\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\saravanan.somu\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\saravanan.somu\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\saravanan.somu\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\saravanan.somu\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.1.2\poi-ooxml-schemas-4.1.2.jar;C:\Users\saravanan.somu\.m2\repository\org\apache\xmlbeans\xmlbeans\3.1.0\xmlbeans-3.1.0.jar;C:\Users\saravanan.somu\.m2\repository\org\apache\commons\commons-compress\1.19\commons-compress-1.19.jar;C:\Users\saravanan.somu\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar;C:\Users\saravanan.somu\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\saravanan.somu\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\saravanan.somu\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\saravanan.somu\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\saravanan.somu\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\saravanan.somu\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\saravanan.somu\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\saravanan.somu\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\saravanan.somu\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\saravanan.somu\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\saravanan.somu\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\saravanan.somu\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\saravanan.somu\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\saravanan.somu\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\saravanan.somu\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\saravanan.somu\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\saravanan.somu\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\saravanan.somu\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\saravanan.somu\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\saravanan.somu\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\saravanan.somu\.m2\repository\io\github\bonigarcia\webdrivermanager\5.3.2\webdrivermanager-5.3.2.jar;C:\Users\saravanan.somu\.m2\repository\org\slf4j\slf4j-api\2.0.6\slf4j-api-2.0.6.jar;C:\Users\saravanan.somu\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\saravanan.somu\.m2\repository\com\github\docker-java\docker-java\3.2.14\docker-java-3.2.14.jar;C:\Users\saravanan.somu\.m2\repository\com\github\docker-java\docker-java-core\3.2.14\docker-java-core-3.2.14.jar;C:\Users\saravanan.somu\.m2\repository\com\github\docker-java\docker-java-api\3.2.14\docker-java-api-3.2.14.jar;C:\Users\saravanan.somu\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\saravanan.somu\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\saravanan.somu\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\saravanan.somu\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\saravanan.somu\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.64\bcpkix-jdk15on-1.64.jar;C:\Users\saravanan.somu\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.64\bcprov-jdk15on-1.64.jar;C:\Users\saravanan.somu\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\saravanan.somu\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.2.14\docker-java-transport-httpclient5-3.2.14.jar;C:\Users\saravanan.somu\.m2\repository\com\github\docker-java\docker-java-transport\3.2.14\docker-java-transport-3.2.14.jar;C:\Users\saravanan.somu\.m2\repository\net\java\dev\jna\jna\5.12.1\jna-5.12.1.jar;C:\Users\saravanan.somu\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\saravanan.somu\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\saravanan.somu\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\saravanan.somu\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\saravanan.somu\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\saravanan.somu\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar;C:\Users\saravanan.somu\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\saravanan.somu\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\saravanan.somu\.m2\repository\org\apache\logging\log4j\log4j-core\2.19.0\log4j-core-2.19.0.jar;C:\Users\saravanan.somu\.m2\repository\org\apache\logging\log4j\log4j-api\2.19.0\log4j-api-2.19.0.jar;C:\Users\saravanan.somu\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar;C:\Users\saravanan.somu\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\saravanan.somu\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\saravanan.somu\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\saravanan.somu\.m2\repository\org\projectlombok\lombok\1.18.22\lombok-1.18.22.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="user.timezone" value="America/Los_Angeles"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.7\bin"/>
+    <property name="sun.java.command" value="C:\Users\SARAVA~1.SOM\AppData\Local\Temp\surefire1380577536551940480\surefirebooter17557091972933650066.jar C:\Users\saravanan.somu\AppData\Local\Temp\surefire1380577536551940480 2023-06-21T08-16-35_930-jvmRun1 surefire5079809276546898992tmp surefire_0998963233737864520tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\saravanan.somu\eclipse-workspace\SeleniumAutomationFramework\target\test-classes;C:\Users\saravanan.somu\eclipse-workspace\SeleniumAutomationFramework\target\classes;C:\Users\saravanan.somu\.m2\repository\org\apache\poi\poi-ooxml\4.1.2\poi-ooxml-4.1.2.jar;C:\Users\saravanan.somu\.m2\repository\org\apache\poi\poi\4.1.2\poi-4.1.2.jar;C:\Users\saravanan.somu\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\saravanan.somu\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\saravanan.somu\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\saravanan.somu\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\saravanan.somu\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.1.2\poi-ooxml-schemas-4.1.2.jar;C:\Users\saravanan.somu\.m2\repository\org\apache\xmlbeans\xmlbeans\3.1.0\xmlbeans-3.1.0.jar;C:\Users\saravanan.somu\.m2\repository\org\apache\commons\commons-compress\1.19\commons-compress-1.19.jar;C:\Users\saravanan.somu\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar;C:\Users\saravanan.somu\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\saravanan.somu\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\saravanan.somu\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\saravanan.somu\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\saravanan.somu\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\saravanan.somu\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\saravanan.somu\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\saravanan.somu\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\saravanan.somu\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\saravanan.somu\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\saravanan.somu\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\saravanan.somu\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\saravanan.somu\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\saravanan.somu\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\saravanan.somu\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\saravanan.somu\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\saravanan.somu\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\saravanan.somu\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\saravanan.somu\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\saravanan.somu\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\saravanan.somu\.m2\repository\io\github\bonigarcia\webdrivermanager\5.3.2\webdrivermanager-5.3.2.jar;C:\Users\saravanan.somu\.m2\repository\org\slf4j\slf4j-api\2.0.6\slf4j-api-2.0.6.jar;C:\Users\saravanan.somu\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\saravanan.somu\.m2\repository\com\github\docker-java\docker-java\3.2.14\docker-java-3.2.14.jar;C:\Users\saravanan.somu\.m2\repository\com\github\docker-java\docker-java-core\3.2.14\docker-java-core-3.2.14.jar;C:\Users\saravanan.somu\.m2\repository\com\github\docker-java\docker-java-api\3.2.14\docker-java-api-3.2.14.jar;C:\Users\saravanan.somu\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\saravanan.somu\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\saravanan.somu\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\saravanan.somu\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\saravanan.somu\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.64\bcpkix-jdk15on-1.64.jar;C:\Users\saravanan.somu\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.64\bcprov-jdk15on-1.64.jar;C:\Users\saravanan.somu\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\saravanan.somu\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.2.14\docker-java-transport-httpclient5-3.2.14.jar;C:\Users\saravanan.somu\.m2\repository\com\github\docker-java\docker-java-transport\3.2.14\docker-java-transport-3.2.14.jar;C:\Users\saravanan.somu\.m2\repository\net\java\dev\jna\jna\5.12.1\jna-5.12.1.jar;C:\Users\saravanan.somu\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\saravanan.somu\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\saravanan.somu\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\saravanan.somu\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\saravanan.somu\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\saravanan.somu\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar;C:\Users\saravanan.somu\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\saravanan.somu\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\saravanan.somu\.m2\repository\org\apache\logging\log4j\log4j-core\2.19.0\log4j-core-2.19.0.jar;C:\Users\saravanan.somu\.m2\repository\org\apache\logging\log4j\log4j-api\2.19.0\log4j-api-2.19.0.jar;C:\Users\saravanan.somu\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar;C:\Users\saravanan.somu\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\saravanan.somu\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\saravanan.somu\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\saravanan.somu\.m2\repository\org\projectlombok\lombok\1.18.22\lombok-1.18.22.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\saravanan.somu"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2020-04-14"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11.0.7"/>
+    <property name="file.separator" value="\"/>
+    <property name="style.color" value="always"/>
+    <property name="basedir" value="C:\Users\saravanan.somu\eclipse-workspace\SeleniumAutomationFramework"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\SARAVA~1.SOM\AppData\Local\Temp\surefire1380577536551940480\surefirebooter17557091972933650066.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.7+8-LTS"/>
+    <property name="user.name" value="saravanan.somu"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="C:\Users\saravanan.somu\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\SARAVA~1.SOM\AppData\Local\Temp\"/>
+    <property name="java.version" value="11.0.7"/>
+    <property name="user.dir" value="C:\Users\saravanan.somu\eclipse-workspace\SeleniumAutomationFramework"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.7\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Users/saravanan.somu/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.7.v20230425-1502/jre/bin/server;C:/Users/saravanan.somu/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.7.v20230425-1502/jre/bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jdk-11.0.7\bin;C:\Program Files\apache-maven-3.9.2\bin;C:\Program Files\Git\cmd;C:\Program Files\Git;C:\Users\saravanan.somu\AppData\Local\Microsoft\WindowsApps;;C:\Users\saravanan.somu\AppData\Local\Programs\Microsoft VS Code\bin;C:\Windows\System32;;."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.7+8-LTS"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="case1_LoginErrorMessage" classname="salesforce.LoginTest" time="1.647"/>
+  <testcase name="case2_Successful_LoginToSalesForce" classname="salesforce.LoginTest" time="5.52">
+    <failure message="Title not matched expected [Home Page ~ Salesforce - Developer Edition] but found []" type="java.lang.AssertionError">java.lang.AssertionError: Title not matched expected [Home Page ~ Salesforce - Developer Edition] but found []
+	at salesforce.LoginTest.case2_Successful_LoginToSalesForce(LoginTest.java:43)
+</failure>
+    <system-out><![CDATA[2023-06-21 08:16:55,745 INFO  SalesForceBaseTest.java:74 - Browser closed
+2023-06-21 08:17:00,237 INFO  SalesForceBaseTest.java:109 - firefoxBrowser opened
+2023-06-21 08:17:03,910 INFO  SalesForceBaseTest.java:146 - Url entered
+2023-06-21 08:17:03,911 INFO  SalesForceBaseTest.java:66 - TestInitialize completed
+2023-06-21 08:17:03,915 INFO  LoginTest.java:38 - case2_Successful_LoginToSalesForce Started
+2023-06-21 08:17:04,404 INFO  SalesForceBaseTest.java:182 - usernameelement cleared 
+2023-06-21 08:17:04,515 INFO  SalesForceBaseTest.java:166 - username is entered to the field
+2023-06-21 08:17:06,665 INFO  SalesForceBaseTest.java:182 - Passwordelement cleared 
+2023-06-21 08:17:06,707 INFO  SalesForceBaseTest.java:166 - Password is entered to the field
+2023-06-21 08:17:09,403 INFO  SalesForceBaseTest.java:195 - Login Button is clicked
+2023-06-21 08:17:09,407 INFO  SalesForceBaseTest.java:152 - Actual title is: 
+]]></system-out>
+    <system-err><![CDATA[1687360612626	Marionette	INFO	Stopped listening on port 64968
+Dynamically enable window occlusion 1
+[Parent 77600, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:787
+1687360615950	geckodriver	INFO	Listening on 127.0.0.1:36343
+1687360616378	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\SARAVA~1.SOM\\AppData\\Local\\Temp\\rust_mozprofileFlYXbA"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1687360617270	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1687360617279	Marionette	INFO	Listening on port 65039
+Read port: 65039
+1687360617696	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Jun 21, 2023 8:17:00 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+JavaScript warning: https://spider.australiarevival.com/i/5d421499287bb62bd452311781db1729.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.salesforce.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.salesforce.com."
+]]></system-err>
+  </testcase>
+  <testcase name="case3_CheckRememberMe" classname="salesforce.LoginTest" time="33.555"/>
+  <testcase name="case4A_ForgotPassword" classname="salesforce.LoginTest" time="7.294"/>
+  <testcase name="case4B_ForgotPassword" classname="salesforce.LoginTest" time="4.055"/>
+  <testcase name="case5_UserMenuDropdown" classname="salesforce.UserMenuDropDownTest" time="7.904"/>
+  <testcase name="case6_MyProfile_userMenuOption1" classname="salesforce.UserMenuDropDownTest" time="44.283"/>
+  <testcase name="case7_MySettings_UserMenuDropDown" classname="salesforce.UserMenuDropDownTest" time="33.779">
+    <failure message="Cannot locate element with text: Reports&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;SARAS-CNB01&apos;, ip: &apos;10.0.0.25&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.7&apos;&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+Cannot locate element with text: Reports
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SARAS-CNB01', ip: '10.0.0.25', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: driver.version: unknown
+	at salesforce.UserMenuDropDownTest.case7_MySettings_UserMenuDropDown(UserMenuDropDownTest.java:285)
+</failure>
+    <system-out><![CDATA[2023-06-21 08:19:40,156 INFO  SalesForceBaseTest.java:74 - Browser closed
+2023-06-21 08:19:46,399 INFO  SalesForceBaseTest.java:109 - firefoxBrowser opened
+2023-06-21 08:19:48,744 INFO  SalesForceBaseTest.java:146 - Url entered
+2023-06-21 08:19:48,746 INFO  SalesForceBaseTest.java:66 - TestInitialize completed
+2023-06-21 08:19:49,583 INFO  SalesForceBaseTest.java:182 - usernameelement cleared 
+2023-06-21 08:19:49,703 INFO  SalesForceBaseTest.java:166 - username is entered to the field
+2023-06-21 08:19:51,799 INFO  SalesForceBaseTest.java:182 - Passwordelement cleared 
+2023-06-21 08:19:51,869 INFO  SalesForceBaseTest.java:166 - Password is entered to the field
+2023-06-21 08:20:00,424 INFO  SalesForceBaseTest.java:195 - Login Button is clicked
+2023-06-21 08:20:03,639 INFO  SalesForceBaseTest.java:212 - Mouse hovered to Rajeeni Sarav menu in the window
+2023-06-21 08:20:03,902 INFO  SalesForceBaseTest.java:195 - UserMenu Dropdown is clicked
+2023-06-21 08:20:04,673 INFO  SalesForceBaseTest.java:195 - My Profile is clicked
+2023-06-21 08:20:09,976 INFO  SalesForceBaseTest.java:195 - Personal is clicked
+2023-06-21 08:20:15,916 INFO  SalesForceBaseTest.java:195 - DisplayLayoutElement is clicked
+Customize My Tabs is clicked
+]]></system-out>
+    <system-err><![CDATA[1687360780595	geckodriver	INFO	Listening on 127.0.0.1:34730
+1687360780760	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\SARAVA~1.SOM\\AppData\\Local\\Temp\\rust_mozprofileXnAUhJ"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1687360781753	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1687360781763	Marionette	INFO	Listening on port 49216
+Read port: 49216
+1687360782335	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Jun 21, 2023 8:19:46 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+JavaScript warning: https://spider.australiarevival.com/i/5d421499287bb62bd452311781db1729.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.salesforce.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.salesforce.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ramco5-dev-ed.develop.my.salesforce.com."
+]]></system-err>
+  </testcase>
+  <testcase name="case8_DeveloperConsole" classname="salesforce.UserMenuDropDownTest" time="13.179"/>
+  <testcase name="case9_LogOutUserMenuDropDOwn" classname="salesforce.UserMenuDropDownTest" time="12.2"/>
+  <testcase name="case10_CreateAccount" classname="salesforce.CreateAccountTest" time="48.174"/>
+  <testcase name="case11_CreateNewView" classname="salesforce.CreateAccountTest" time="4.794">
+    <failure message="Unable to locate element: //ul[@id=&apos;tabBar&apos;]/li[5]&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;SARAS-CNB01&apos;, ip: &apos;10.0.0.25&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.7&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 114.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230619081400, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 75660, moz:profile: C:\Users\SARAVA~1.SOM\AppDa..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: d23ca523-5abb-4cc2-98ef-b2099d213bbd&#10;*** Element info: {Using=xpath, value=//ul[@id=&apos;tabBar&apos;]/li[5]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: //ul[@id='tabBar']/li[5]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SARAS-CNB01', ip: '10.0.0.25', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 114.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230619081400, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 75660, moz:profile: C:\Users\SARAVA~1.SOM\AppDa..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d23ca523-5abb-4cc2-98ef-b2099d213bbd
+*** Element info: {Using=xpath, value=//ul[@id='tabBar']/li[5]}
+	at salesforce.CreateAccountTest.case11_CreateNewView(CreateAccountTest.java:77)
+</failure>
+    <system-out><![CDATA[2023-06-21 08:22:09,329 INFO  SalesForceBaseTest.java:74 - Browser closed
+2023-06-21 08:22:14,952 INFO  SalesForceBaseTest.java:109 - firefoxBrowser opened
+2023-06-21 08:22:16,595 INFO  SalesForceBaseTest.java:146 - Url entered
+2023-06-21 08:22:16,595 INFO  SalesForceBaseTest.java:66 - TestInitialize completed
+2023-06-21 08:22:16,981 INFO  SalesForceBaseTest.java:182 - usernameelement cleared 
+2023-06-21 08:22:17,121 INFO  SalesForceBaseTest.java:166 - username is entered to the field
+2023-06-21 08:22:19,221 INFO  SalesForceBaseTest.java:182 - Passwordelement cleared 
+2023-06-21 08:22:19,279 INFO  SalesForceBaseTest.java:166 - Password is entered to the field
+2023-06-21 08:22:21,362 INFO  SalesForceBaseTest.java:195 - Login Button is clicked
+]]></system-out>
+    <system-err><![CDATA[1687360929606	geckodriver	INFO	Listening on 127.0.0.1:13753
+1687360929896	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\SARAVA~1.SOM\\AppData\\Local\\Temp\\rust_mozprofileqOvoTp"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1687360930385	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1687360930403	Marionette	INFO	Listening on port 49647
+Read port: 49647
+1687360930704	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Jun 21, 2023 8:22:14 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+console.error: Region.sys.mjs: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 762))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 414))
+JavaScript warning: https://spider.australiarevival.com/i/5d421499287bb62bd452311781db1729.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.salesforce.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.salesforce.com."
+]]></system-err>
+  </testcase>
+  <testcase name="case12_EditViewView" classname="salesforce.CreateAccountTest" time="4.757">
+    <failure message="Unable to locate element: //ul[@id=&apos;tabBar&apos;]/li[5]&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;SARAS-CNB01&apos;, ip: &apos;10.0.0.25&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.7&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 114.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230619081400, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 47120, moz:profile: C:\Users\SARAVA~1.SOM\AppDa..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 9b94fed5-d32a-466d-ae5a-0b034f0eded6&#10;*** Element info: {Using=xpath, value=//ul[@id=&apos;tabBar&apos;]/li[5]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: //ul[@id='tabBar']/li[5]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SARAS-CNB01', ip: '10.0.0.25', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 114.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230619081400, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 47120, moz:profile: C:\Users\SARAVA~1.SOM\AppDa..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 9b94fed5-d32a-466d-ae5a-0b034f0eded6
+*** Element info: {Using=xpath, value=//ul[@id='tabBar']/li[5]}
+	at salesforce.CreateAccountTest.case12_EditViewView(CreateAccountTest.java:118)
+</failure>
+    <system-out><![CDATA[driver got it in listerners utility=FirefoxDriver: firefox on WINDOWS (d23ca523-5abb-4cc2-98ef-b2099d213bbd)
+2023-06-21 08:22:23,323 INFO  SalesForceBaseTest.java:74 - Browser closed
+2023-06-21 08:22:29,308 INFO  SalesForceBaseTest.java:109 - firefoxBrowser opened
+2023-06-21 08:22:31,360 INFO  SalesForceBaseTest.java:146 - Url entered
+2023-06-21 08:22:31,360 INFO  SalesForceBaseTest.java:66 - TestInitialize completed
+2023-06-21 08:22:31,709 INFO  SalesForceBaseTest.java:182 - usernameelement cleared 
+2023-06-21 08:22:32,032 INFO  SalesForceBaseTest.java:166 - username is entered to the field
+2023-06-21 08:22:34,121 INFO  SalesForceBaseTest.java:182 - Passwordelement cleared 
+2023-06-21 08:22:34,171 INFO  SalesForceBaseTest.java:166 - Password is entered to the field
+2023-06-21 08:22:36,104 INFO  SalesForceBaseTest.java:195 - Login Button is clicked
+]]></system-out>
+    <system-err><![CDATA[1687360941458	Marionette	INFO	Stopped listening on port 49647
+Dynamically enable window occlusion 1
+1687360943700	geckodriver	INFO	Listening on 127.0.0.1:24697
+1687360943919	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\SARAVA~1.SOM\\AppData\\Local\\Temp\\rust_mozprofileA69Ze2"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1687360944690	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1687360944701	Marionette	INFO	Listening on port 49741
+Read port: 49741
+1687360945081	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Jun 21, 2023 8:22:29 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+JavaScript warning: https://spider.australiarevival.com/i/5d421499287bb62bd452311781db1729.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.salesforce.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.salesforce.com."
+]]></system-err>
+  </testcase>
+  <testcase name="case13_MergeAccounts" classname="salesforce.CreateAccountTest" time="4.729">
+    <failure message="Unable to locate element: //ul[@id=&apos;tabBar&apos;]/li[5]&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;SARAS-CNB01&apos;, ip: &apos;10.0.0.25&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.7&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 114.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230619081400, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 60468, moz:profile: C:\Users\SARAVA~1.SOM\AppDa..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 5eca8a31-4ece-4320-9ead-c272ef201a6d&#10;*** Element info: {Using=xpath, value=//ul[@id=&apos;tabBar&apos;]/li[5]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: //ul[@id='tabBar']/li[5]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SARAS-CNB01', ip: '10.0.0.25', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 114.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230619081400, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 60468, moz:profile: C:\Users\SARAVA~1.SOM\AppDa..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 5eca8a31-4ece-4320-9ead-c272ef201a6d
+*** Element info: {Using=xpath, value=//ul[@id='tabBar']/li[5]}
+	at salesforce.CreateAccountTest.case13_MergeAccounts(CreateAccountTest.java:182)
+</failure>
+    <system-out><![CDATA[driver got it in listerners utility=FirefoxDriver: firefox on WINDOWS (9b94fed5-d32a-466d-ae5a-0b034f0eded6)
+2023-06-21 08:22:38,815 INFO  SalesForceBaseTest.java:74 - Browser closed
+2023-06-21 08:22:44,394 INFO  SalesForceBaseTest.java:109 - firefoxBrowser opened
+2023-06-21 08:22:46,461 INFO  SalesForceBaseTest.java:146 - Url entered
+2023-06-21 08:22:46,461 INFO  SalesForceBaseTest.java:66 - TestInitialize completed
+2023-06-21 08:22:46,788 INFO  SalesForceBaseTest.java:182 - usernameelement cleared 
+2023-06-21 08:22:46,886 INFO  SalesForceBaseTest.java:166 - username is entered to the field
+2023-06-21 08:22:48,983 INFO  SalesForceBaseTest.java:182 - Passwordelement cleared 
+2023-06-21 08:22:49,016 INFO  SalesForceBaseTest.java:166 - Password is entered to the field
+2023-06-21 08:22:51,167 INFO  SalesForceBaseTest.java:195 - Login Button is clicked
+]]></system-out>
+    <system-err><![CDATA[1687360956203	Marionette	INFO	Stopped listening on port 49741
+Dynamically enable window occlusion 1
+1687360959069	geckodriver	INFO	Listening on 127.0.0.1:12306
+1687360959415	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\SARAVA~1.SOM\\AppData\\Local\\Temp\\rust_mozprofileR02yNX"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1687360960211	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1687360960229	Marionette	INFO	Listening on port 49826
+Read port: 49826
+1687360960597	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Jun 21, 2023 8:22:44 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+console.error: Region.sys.mjs: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 762))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 414))
+JavaScript warning: https://spider.australiarevival.com/i/5d421499287bb62bd452311781db1729.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.salesforce.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.salesforce.com."
+]]></system-err>
+  </testcase>
+  <testcase name="case14_CreateAccountReport" classname="salesforce.CreateAccountTest" time="5.167">
+    <failure message="Unable to locate element: //*[@id=&quot;Account_Tab&quot;]/a&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;SARAS-CNB01&apos;, ip: &apos;10.0.0.25&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.7&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 114.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230619081400, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 79780, moz:profile: C:\Users\SARAVA~1.SOM\AppDa..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 69884680-b388-4f09-94e9-d444409b00f3&#10;*** Element info: {Using=xpath, value=//*[@id=&quot;Account_Tab&quot;]/a}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: //*[@id="Account_Tab"]/a
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SARAS-CNB01', ip: '10.0.0.25', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 114.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230619081400, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 79780, moz:profile: C:\Users\SARAVA~1.SOM\AppDa..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 69884680-b388-4f09-94e9-d444409b00f3
+*** Element info: {Using=xpath, value=//*[@id="Account_Tab"]/a}
+	at salesforce.CreateAccountTest.case14_CreateAccountReport(CreateAccountTest.java:239)
+</failure>
+    <system-out><![CDATA[driver got it in listerners utility=FirefoxDriver: firefox on WINDOWS (5eca8a31-4ece-4320-9ead-c272ef201a6d)
+2023-06-21 08:22:53,290 INFO  SalesForceBaseTest.java:74 - Browser closed
+2023-06-21 08:22:59,204 INFO  SalesForceBaseTest.java:109 - firefoxBrowser opened
+2023-06-21 08:23:01,493 INFO  SalesForceBaseTest.java:146 - Url entered
+2023-06-21 08:23:01,493 INFO  SalesForceBaseTest.java:66 - TestInitialize completed
+2023-06-21 08:23:02,251 INFO  SalesForceBaseTest.java:182 - usernameelement cleared 
+2023-06-21 08:23:02,404 INFO  SalesForceBaseTest.java:166 - username is entered to the field
+2023-06-21 08:23:04,512 INFO  SalesForceBaseTest.java:182 - Passwordelement cleared 
+2023-06-21 08:23:04,536 INFO  SalesForceBaseTest.java:166 - Password is entered to the field
+2023-06-21 08:23:06,637 INFO  SalesForceBaseTest.java:195 - Login Button is clicked
+]]></system-out>
+    <system-err><![CDATA[1687360971265	Marionette	INFO	Stopped listening on port 49826
+Dynamically enable window occlusion 1
+[Parent 60468, IPC I/O Parent] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:593
+[Parent 60468, Main Thread] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:593
+1687360973449	geckodriver	INFO	Listening on 127.0.0.1:13743
+1687360973930	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\SARAVA~1.SOM\\AppData\\Local\\Temp\\rust_mozprofilegAkX4T"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1687360974897	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1687360974924	Marionette	INFO	Listening on port 49905
+Read port: 49905
+1687360975338	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Jun 21, 2023 8:22:58 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+JavaScript warning: https://spider.australiarevival.com/i/5d421499287bb62bd452311781db1729.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.salesforce.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.salesforce.com."
+]]></system-err>
+  </testcase>
+  <testcase name="case15_OpportunitiesDropDown" classname="salesforce.CreateOpportunityTest" time="5.14">
+    <failure message="Unable to locate element: //li[@id=&apos;Opportunity_Tab&apos;]&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;SARAS-CNB01&apos;, ip: &apos;10.0.0.25&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.7&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 114.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230619081400, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 84616, moz:profile: C:\Users\SARAVA~1.SOM\AppDa..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 43d7c34d-bd6b-48a1-8c27-3485e814b96d&#10;*** Element info: {Using=xpath, value=//li[@id=&apos;Opportunity_Tab&apos;]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: //li[@id='Opportunity_Tab']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SARAS-CNB01', ip: '10.0.0.25', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 114.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230619081400, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 84616, moz:profile: C:\Users\SARAVA~1.SOM\AppDa..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 43d7c34d-bd6b-48a1-8c27-3485e814b96d
+*** Element info: {Using=xpath, value=//li[@id='Opportunity_Tab']}
+	at salesforce.CreateOpportunityTest.case15_OpportunitiesDropDown(CreateOpportunityTest.java:16)
+</failure>
+    <system-out><![CDATA[driver got it in listerners utility=FirefoxDriver: firefox on WINDOWS (69884680-b388-4f09-94e9-d444409b00f3)
+2023-06-21 08:23:08,731 INFO  SalesForceBaseTest.java:74 - Browser closed
+2023-06-21 08:23:13,947 INFO  SalesForceBaseTest.java:109 - firefoxBrowser opened
+2023-06-21 08:23:16,537 INFO  SalesForceBaseTest.java:146 - Url entered
+2023-06-21 08:23:16,537 INFO  SalesForceBaseTest.java:66 - TestInitialize completed
+2023-06-21 08:23:17,162 INFO  SalesForceBaseTest.java:182 - usernameelement cleared 
+2023-06-21 08:23:17,320 INFO  SalesForceBaseTest.java:166 - username is entered to the field
+2023-06-21 08:23:19,421 INFO  SalesForceBaseTest.java:182 - Passwordelement cleared 
+2023-06-21 08:23:19,454 INFO  SalesForceBaseTest.java:166 - Password is entered to the field
+2023-06-21 08:23:21,651 INFO  SalesForceBaseTest.java:195 - Login Button is clicked
+]]></system-out>
+    <system-err><![CDATA[1687360986740	Marionette	INFO	Stopped listening on port 49905
+Dynamically enable window occlusion 1
+1687360988906	geckodriver	INFO	Listening on 127.0.0.1:9812
+1687360989462	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\SARAVA~1.SOM\\AppData\\Local\\Temp\\rust_mozprofileMAhekp"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1687360990253	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1687360990265	Marionette	INFO	Listening on port 49994
+Read port: 49994
+1687360990468	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Jun 21, 2023 8:23:13 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+console.error: Region.sys.mjs: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 762))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 414))
+JavaScript warning: https://spider.australiarevival.com/i/5d421499287bb62bd452311781db1729.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.salesforce.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.salesforce.com."
+]]></system-err>
+  </testcase>
+  <testcase name="case16_CreateNewOpty" classname="salesforce.CreateOpportunityTest" time="4.706">
+    <failure message="Unable to locate element: //*[@id=&quot;Opportunity_Tab&quot;]/a&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;SARAS-CNB01&apos;, ip: &apos;10.0.0.25&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.7&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 114.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230619081400, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 37808, moz:profile: C:\Users\SARAVA~1.SOM\AppDa..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: e4f3dcd5-e39d-4b83-b63d-3c868d44a0ed&#10;*** Element info: {Using=xpath, value=//*[@id=&quot;Opportunity_Tab&quot;]/a}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: //*[@id="Opportunity_Tab"]/a
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SARAS-CNB01', ip: '10.0.0.25', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 114.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230619081400, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 37808, moz:profile: C:\Users\SARAVA~1.SOM\AppDa..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e4f3dcd5-e39d-4b83-b63d-3c868d44a0ed
+*** Element info: {Using=xpath, value=//*[@id="Opportunity_Tab"]/a}
+	at salesforce.CreateOpportunityTest.case16_CreateNewOpty(CreateOpportunityTest.java:54)
+</failure>
+    <system-out><![CDATA[driver got it in listerners utility=FirefoxDriver: firefox on WINDOWS (43d7c34d-bd6b-48a1-8c27-3485e814b96d)
+2023-06-21 08:23:23,720 INFO  SalesForceBaseTest.java:74 - Browser closed
+2023-06-21 08:23:28,829 INFO  SalesForceBaseTest.java:109 - firefoxBrowser opened
+2023-06-21 08:23:31,354 INFO  SalesForceBaseTest.java:146 - Url entered
+2023-06-21 08:23:31,355 INFO  SalesForceBaseTest.java:66 - TestInitialize completed
+2023-06-21 08:23:31,780 INFO  SalesForceBaseTest.java:182 - usernameelement cleared 
+2023-06-21 08:23:32,035 INFO  SalesForceBaseTest.java:166 - username is entered to the field
+2023-06-21 08:23:34,130 INFO  SalesForceBaseTest.java:182 - Passwordelement cleared 
+2023-06-21 08:23:34,162 INFO  SalesForceBaseTest.java:166 - Password is entered to the field
+2023-06-21 08:23:36,051 INFO  SalesForceBaseTest.java:195 - Login Button is clicked
+]]></system-out>
+    <system-err><![CDATA[1687361001751	Marionette	INFO	Stopped listening on port 49994
+Dynamically enable window occlusion 1
+1687361003925	geckodriver	INFO	Listening on 127.0.0.1:26906
+1687361004330	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\SARAVA~1.SOM\\AppData\\Local\\Temp\\rust_mozprofilePbKxSo"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1687361005014	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1687361005027	Marionette	INFO	Listening on port 50066
+Read port: 50066
+1687361005254	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Jun 21, 2023 8:23:28 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+JavaScript warning: https://spider.australiarevival.com/i/5d421499287bb62bd452311781db1729.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.salesforce.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.salesforce.com."
+]]></system-err>
+  </testcase>
+  <testcase name="case17_TestOpportunityFileReport" classname="salesforce.CreateOpportunityTest" time="5.444">
+    <failure message="Unable to locate element: //*[@id=&quot;Opportunity_Tab&quot;]/a&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;SARAS-CNB01&apos;, ip: &apos;10.0.0.25&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.7&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 114.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230619081400, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 72072, moz:profile: C:\Users\SARAVA~1.SOM\AppDa..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 287f17f6-033e-4ecc-b457-dc6e92d22ee5&#10;*** Element info: {Using=xpath, value=//*[@id=&quot;Opportunity_Tab&quot;]/a}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: //*[@id="Opportunity_Tab"]/a
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SARAS-CNB01', ip: '10.0.0.25', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 114.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230619081400, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 72072, moz:profile: C:\Users\SARAVA~1.SOM\AppDa..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 287f17f6-033e-4ecc-b457-dc6e92d22ee5
+*** Element info: {Using=xpath, value=//*[@id="Opportunity_Tab"]/a}
+	at salesforce.CreateOpportunityTest.case17_TestOpportunityFileReport(CreateOpportunityTest.java:133)
+</failure>
+    <system-out><![CDATA[driver got it in listerners utility=FirefoxDriver: firefox on WINDOWS (e4f3dcd5-e39d-4b83-b63d-3c868d44a0ed)
+2023-06-21 08:23:38,306 INFO  SalesForceBaseTest.java:74 - Browser closed
+2023-06-21 08:23:43,662 INFO  SalesForceBaseTest.java:109 - firefoxBrowser opened
+2023-06-21 08:23:45,829 INFO  SalesForceBaseTest.java:146 - Url entered
+2023-06-21 08:23:45,830 INFO  SalesForceBaseTest.java:66 - TestInitialize completed
+2023-06-21 08:23:46,340 INFO  SalesForceBaseTest.java:182 - usernameelement cleared 
+2023-06-21 08:23:46,686 INFO  SalesForceBaseTest.java:166 - username is entered to the field
+2023-06-21 08:23:48,775 INFO  SalesForceBaseTest.java:182 - Passwordelement cleared 
+2023-06-21 08:23:48,821 INFO  SalesForceBaseTest.java:166 - Password is entered to the field
+2023-06-21 08:23:51,266 INFO  SalesForceBaseTest.java:195 - Login Button is clicked
+]]></system-out>
+    <system-err><![CDATA[1687361016141	Marionette	INFO	Stopped listening on port 50066
+Dynamically enable window occlusion 1
+1687361018512	geckodriver	INFO	Listening on 127.0.0.1:39055
+1687361018973	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\SARAVA~1.SOM\\AppData\\Local\\Temp\\rust_mozprofilef7SERK"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1687361019679	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1687361019694	Marionette	INFO	Listening on port 50153
+Read port: 50153
+1687361019937	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Jun 21, 2023 8:23:43 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+JavaScript warning: https://spider.australiarevival.com/i/5d421499287bb62bd452311781db1729.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.salesforce.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.salesforce.com."
+]]></system-err>
+  </testcase>
+  <testcase name="case18_TestStuckOpportunityReport" classname="salesforce.CreateOpportunityTest" time="4.768">
+    <failure message="Unable to locate element: //*[@id=&quot;Opportunity_Tab&quot;]/a&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;SARAS-CNB01&apos;, ip: &apos;10.0.0.25&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.7&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 114.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230619081400, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 68524, moz:profile: C:\Users\SARAVA~1.SOM\AppDa..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 31f845ce-84d9-4814-9dfe-6c832d9746e0&#10;*** Element info: {Using=xpath, value=//*[@id=&quot;Opportunity_Tab&quot;]/a}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: //*[@id="Opportunity_Tab"]/a
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SARAS-CNB01', ip: '10.0.0.25', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 114.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230619081400, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 68524, moz:profile: C:\Users\SARAVA~1.SOM\AppDa..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 31f845ce-84d9-4814-9dfe-6c832d9746e0
+*** Element info: {Using=xpath, value=//*[@id="Opportunity_Tab"]/a}
+	at salesforce.CreateOpportunityTest.case18_TestStuckOpportunityReport(CreateOpportunityTest.java:155)
+</failure>
+    <system-out><![CDATA[driver got it in listerners utility=FirefoxDriver: firefox on WINDOWS (287f17f6-033e-4ecc-b457-dc6e92d22ee5)
+2023-06-21 08:23:53,134 INFO  SalesForceBaseTest.java:74 - Browser closed
+2023-06-21 08:23:59,100 INFO  SalesForceBaseTest.java:109 - firefoxBrowser opened
+2023-06-21 08:24:00,822 INFO  SalesForceBaseTest.java:146 - Url entered
+2023-06-21 08:24:00,825 INFO  SalesForceBaseTest.java:66 - TestInitialize completed
+2023-06-21 08:24:01,196 INFO  SalesForceBaseTest.java:182 - usernameelement cleared 
+2023-06-21 08:24:01,443 INFO  SalesForceBaseTest.java:166 - username is entered to the field
+2023-06-21 08:24:03,533 INFO  SalesForceBaseTest.java:182 - Passwordelement cleared 
+2023-06-21 08:24:03,569 INFO  SalesForceBaseTest.java:166 - Password is entered to the field
+2023-06-21 08:24:05,567 INFO  SalesForceBaseTest.java:195 - Login Button is clicked
+]]></system-out>
+    <system-err><![CDATA[1687361031348	Marionette	INFO	Stopped listening on port 50153
+Dynamically enable window occlusion 1
+1687361033346	geckodriver	INFO	Listening on 127.0.0.1:16736
+1687361033813	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\SARAVA~1.SOM\\AppData\\Local\\Temp\\rust_mozprofile6qKgSl"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1687361034507	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1687361034516	Marionette	INFO	Listening on port 50233
+Read port: 50233
+1687361034886	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Jun 21, 2023 8:23:58 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+console.error: Region.sys.mjs: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 762))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 414))
+JavaScript warning: https://spider.australiarevival.com/i/5d421499287bb62bd452311781db1729.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.salesforce.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.salesforce.com."
+]]></system-err>
+  </testcase>
+  <testcase name="case19_TestQuarterlySummaryReport" classname="salesforce.CreateOpportunityTest" time="4.548">
+    <failure message="Unable to locate element: //*[@id=&quot;Opportunity_Tab&quot;]/a&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;SARAS-CNB01&apos;, ip: &apos;10.0.0.25&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.7&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 114.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230619081400, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 65964, moz:profile: C:\Users\SARAVA~1.SOM\AppDa..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 0a4cf350-6e01-45cd-a972-b75f8dc9e19c&#10;*** Element info: {Using=xpath, value=//*[@id=&quot;Opportunity_Tab&quot;]/a}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: //*[@id="Opportunity_Tab"]/a
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SARAS-CNB01', ip: '10.0.0.25', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 114.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230619081400, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 65964, moz:profile: C:\Users\SARAVA~1.SOM\AppDa..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 0a4cf350-6e01-45cd-a972-b75f8dc9e19c
+*** Element info: {Using=xpath, value=//*[@id="Opportunity_Tab"]/a}
+	at salesforce.CreateOpportunityTest.case19_TestQuarterlySummaryReport(CreateOpportunityTest.java:178)
+</failure>
+    <system-out><![CDATA[driver got it in listerners utility=FirefoxDriver: firefox on WINDOWS (31f845ce-84d9-4814-9dfe-6c832d9746e0)
+2023-06-21 08:24:07,605 INFO  SalesForceBaseTest.java:74 - Browser closed
+2023-06-21 08:24:13,383 INFO  SalesForceBaseTest.java:109 - firefoxBrowser opened
+2023-06-21 08:24:15,362 INFO  SalesForceBaseTest.java:146 - Url entered
+2023-06-21 08:24:15,362 INFO  SalesForceBaseTest.java:66 - TestInitialize completed
+2023-06-21 08:24:15,745 INFO  SalesForceBaseTest.java:182 - usernameelement cleared 
+2023-06-21 08:24:15,847 INFO  SalesForceBaseTest.java:166 - username is entered to the field
+2023-06-21 08:24:17,928 INFO  SalesForceBaseTest.java:182 - Passwordelement cleared 
+2023-06-21 08:24:17,953 INFO  SalesForceBaseTest.java:166 - Password is entered to the field
+2023-06-21 08:24:19,890 INFO  SalesForceBaseTest.java:195 - Login Button is clicked
+]]></system-out>
+    <system-err><![CDATA[1687361045660	Marionette	INFO	Stopped listening on port 50233
+Dynamically enable window occlusion 1
+[Parent 68524, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:787
+1687361047792	geckodriver	INFO	Listening on 127.0.0.1:42497
+1687361048169	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\SARAVA~1.SOM\\AppData\\Local\\Temp\\rust_mozprofileXHApO1"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1687361048777	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1687361048792	Marionette	INFO	Listening on port 50305
+Read port: 50305
+1687361049141	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Jun 21, 2023 8:24:13 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+JavaScript warning: https://spider.australiarevival.com/i/5d421499287bb62bd452311781db1729.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.salesforce.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.salesforce.com."
+]]></system-err>
+  </testcase>
+  <testcase name="case20_LeadsTab" classname="salesforce.Leads" time="4.869">
+    <failure message="Unable to locate element: //li[@id=&apos;Lead_Tab&apos;]&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;SARAS-CNB01&apos;, ip: &apos;10.0.0.25&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.7&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 114.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230619081400, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 76764, moz:profile: C:\Users\SARAVA~1.SOM\AppDa..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 17851a26-36c6-4683-809f-d63df2595c0a&#10;*** Element info: {Using=xpath, value=//li[@id=&apos;Lead_Tab&apos;]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: //li[@id='Lead_Tab']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SARAS-CNB01', ip: '10.0.0.25', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 114.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230619081400, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 76764, moz:profile: C:\Users\SARAVA~1.SOM\AppDa..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 17851a26-36c6-4683-809f-d63df2595c0a
+*** Element info: {Using=xpath, value=//li[@id='Lead_Tab']}
+	at salesforce.Leads.case20_LeadsTab(Leads.java:16)
+</failure>
+    <system-out><![CDATA[driver got it in listerners utility=FirefoxDriver: firefox on WINDOWS (0a4cf350-6e01-45cd-a972-b75f8dc9e19c)
+2023-06-21 08:24:22,908 INFO  SalesForceBaseTest.java:74 - Browser closed
+2023-06-21 08:24:28,480 INFO  SalesForceBaseTest.java:109 - firefoxBrowser opened
+2023-06-21 08:24:31,039 INFO  SalesForceBaseTest.java:146 - Url entered
+2023-06-21 08:24:31,040 INFO  SalesForceBaseTest.java:66 - TestInitialize completed
+2023-06-21 08:24:31,466 INFO  SalesForceBaseTest.java:182 - usernameelement cleared 
+2023-06-21 08:24:31,661 INFO  SalesForceBaseTest.java:166 - username is entered to the field
+2023-06-21 08:24:33,753 INFO  SalesForceBaseTest.java:182 - Passwordelement cleared 
+2023-06-21 08:24:33,777 INFO  SalesForceBaseTest.java:166 - Password is entered to the field
+2023-06-21 08:24:35,889 INFO  SalesForceBaseTest.java:195 - Login Button is clicked
+]]></system-out>
+    <system-err><![CDATA[1687361059979	Marionette	INFO	Stopped listening on port 50305
+Dynamically enable window occlusion 1
+1687361063160	geckodriver	INFO	Listening on 127.0.0.1:7939
+1687361063524	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\SARAVA~1.SOM\\AppData\\Local\\Temp\\rust_mozprofile2J8HqY"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1687361064495	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1687361064511	Marionette	INFO	Listening on port 50387
+Read port: 50387
+1687361064890	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Jun 21, 2023 8:24:28 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+JavaScript warning: https://spider.australiarevival.com/i/5d421499287bb62bd452311781db1729.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.salesforce.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.salesforce.com."
+]]></system-err>
+  </testcase>
+  <testcase name="case21_LeadsSelectView" classname="salesforce.Leads" time="4.724">
+    <failure message="Unable to locate element: //*[@id=&quot;Lead_Tab&quot;]/a&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;SARAS-CNB01&apos;, ip: &apos;10.0.0.25&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.7&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 114.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230619081400, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 50240, moz:profile: C:\Users\SARAVA~1.SOM\AppDa..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: bf68d74d-ad48-4f51-89d5-7d380d055185&#10;*** Element info: {Using=xpath, value=//*[@id=&quot;Lead_Tab&quot;]/a}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: //*[@id="Lead_Tab"]/a
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SARAS-CNB01', ip: '10.0.0.25', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 114.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230619081400, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 50240, moz:profile: C:\Users\SARAVA~1.SOM\AppDa..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: bf68d74d-ad48-4f51-89d5-7d380d055185
+*** Element info: {Using=xpath, value=//*[@id="Lead_Tab"]/a}
+	at salesforce.Leads.case21_LeadsSelectView(Leads.java:43)
+</failure>
+    <system-out><![CDATA[driver got it in listerners utility=FirefoxDriver: firefox on WINDOWS (17851a26-36c6-4683-809f-d63df2595c0a)
+2023-06-21 08:24:37,755 INFO  SalesForceBaseTest.java:74 - Browser closed
+2023-06-21 08:24:42,870 INFO  SalesForceBaseTest.java:109 - firefoxBrowser opened
+2023-06-21 08:24:45,544 INFO  SalesForceBaseTest.java:146 - Url entered
+2023-06-21 08:24:45,548 INFO  SalesForceBaseTest.java:66 - TestInitialize completed
+2023-06-21 08:24:46,029 INFO  SalesForceBaseTest.java:182 - usernameelement cleared 
+2023-06-21 08:24:46,164 INFO  SalesForceBaseTest.java:166 - username is entered to the field
+2023-06-21 08:24:48,271 INFO  SalesForceBaseTest.java:182 - Passwordelement cleared 
+2023-06-21 08:24:48,296 INFO  SalesForceBaseTest.java:166 - Password is entered to the field
+2023-06-21 08:24:50,280 INFO  SalesForceBaseTest.java:195 - Login Button is clicked
+]]></system-out>
+    <system-err><![CDATA[1687361075987	Marionette	INFO	Stopped listening on port 50387
+Dynamically enable window occlusion 1
+1687361077929	geckodriver	INFO	Listening on 127.0.0.1:44204
+1687361078414	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\SARAVA~1.SOM\\AppData\\Local\\Temp\\rust_mozprofilegwy9Tb"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1687361079103	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1687361079113	Marionette	INFO	Listening on port 50469
+Read port: 50469
+1687361079351	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Jun 21, 2023 8:24:42 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+JavaScript warning: https://spider.australiarevival.com/i/5d421499287bb62bd452311781db1729.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.salesforce.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.salesforce.com."
+]]></system-err>
+  </testcase>
+  <testcase name="case22_DefaultView" classname="salesforce.Leads" time="5.285">
+    <failure message="Unable to locate element: //*[@id=&quot;Lead_Tab&quot;]/a&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;SARAS-CNB01&apos;, ip: &apos;10.0.0.25&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.7&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 114.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230619081400, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 78688, moz:profile: C:\Users\SARAVA~1.SOM\AppDa..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 9e6658bf-baca-4590-a577-36c40de8d997&#10;*** Element info: {Using=xpath, value=//*[@id=&quot;Lead_Tab&quot;]/a}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: //*[@id="Lead_Tab"]/a
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SARAS-CNB01', ip: '10.0.0.25', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 114.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230619081400, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 78688, moz:profile: C:\Users\SARAVA~1.SOM\AppDa..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 9e6658bf-baca-4590-a577-36c40de8d997
+*** Element info: {Using=xpath, value=//*[@id="Lead_Tab"]/a}
+	at salesforce.Leads.case22_DefaultView(Leads.java:83)
+</failure>
+    <system-out><![CDATA[driver got it in listerners utility=FirefoxDriver: firefox on WINDOWS (bf68d74d-ad48-4f51-89d5-7d380d055185)
+2023-06-21 08:24:52,186 INFO  SalesForceBaseTest.java:74 - Browser closed
+2023-06-21 08:24:57,918 INFO  SalesForceBaseTest.java:109 - firefoxBrowser opened
+2023-06-21 08:25:00,016 INFO  SalesForceBaseTest.java:146 - Url entered
+2023-06-21 08:25:00,016 INFO  SalesForceBaseTest.java:66 - TestInitialize completed
+2023-06-21 08:25:00,911 INFO  SalesForceBaseTest.java:182 - usernameelement cleared 
+2023-06-21 08:25:00,959 INFO  SalesForceBaseTest.java:166 - username is entered to the field
+2023-06-21 08:25:03,226 INFO  SalesForceBaseTest.java:182 - Passwordelement cleared 
+2023-06-21 08:25:03,255 INFO  SalesForceBaseTest.java:166 - Password is entered to the field
+2023-06-21 08:25:05,281 INFO  SalesForceBaseTest.java:195 - Login Button is clicked
+]]></system-out>
+    <system-err><![CDATA[1687361090383	Marionette	INFO	Stopped listening on port 50469
+Dynamically enable window occlusion 1
+1687361092364	geckodriver	INFO	Listening on 127.0.0.1:7335
+1687361092743	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\SARAVA~1.SOM\\AppData\\Local\\Temp\\rust_mozprofile7pIvuQ"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1687361093522	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1687361093538	Marionette	INFO	Listening on port 50548
+Read port: 50548
+1687361093843	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Jun 21, 2023 8:24:57 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+JavaScript warning: https://spider.australiarevival.com/i/5d421499287bb62bd452311781db1729.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.salesforce.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.salesforce.com."
+[Parent 78688, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:787
+]]></system-err>
+  </testcase>
+  <testcase name="case23_TodaysLeads" classname="salesforce.Leads" time="4.844">
+    <failure message="Unable to locate element: //*[@id=&quot;Lead_Tab&quot;]/a&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;SARAS-CNB01&apos;, ip: &apos;10.0.0.25&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.7&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 114.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230619081400, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 75976, moz:profile: C:\Users\SARAVA~1.SOM\AppDa..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 2ac40cd3-74f2-4b9d-a85e-c12b91dce5b7&#10;*** Element info: {Using=xpath, value=//*[@id=&quot;Lead_Tab&quot;]/a}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: //*[@id="Lead_Tab"]/a
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SARAS-CNB01', ip: '10.0.0.25', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 114.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230619081400, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 75976, moz:profile: C:\Users\SARAVA~1.SOM\AppDa..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 2ac40cd3-74f2-4b9d-a85e-c12b91dce5b7
+*** Element info: {Using=xpath, value=//*[@id="Lead_Tab"]/a}
+	at salesforce.Leads.case23_TodaysLeads(Leads.java:155)
+</failure>
+    <system-out><![CDATA[driver got it in listerners utility=FirefoxDriver: firefox on WINDOWS (9e6658bf-baca-4590-a577-36c40de8d997)
+2023-06-21 08:25:07,419 INFO  SalesForceBaseTest.java:74 - Browser closed
+2023-06-21 08:25:12,761 INFO  SalesForceBaseTest.java:109 - firefoxBrowser opened
+2023-06-21 08:25:15,247 INFO  SalesForceBaseTest.java:146 - Url entered
+2023-06-21 08:25:15,248 INFO  SalesForceBaseTest.java:66 - TestInitialize completed
+2023-06-21 08:25:15,723 INFO  SalesForceBaseTest.java:182 - usernameelement cleared 
+2023-06-21 08:25:15,909 INFO  SalesForceBaseTest.java:166 - username is entered to the field
+2023-06-21 08:25:17,995 INFO  SalesForceBaseTest.java:182 - Passwordelement cleared 
+2023-06-21 08:25:18,020 INFO  SalesForceBaseTest.java:166 - Password is entered to the field
+2023-06-21 08:25:20,067 INFO  SalesForceBaseTest.java:195 - Login Button is clicked
+]]></system-out>
+    <system-err><![CDATA[1687361105369	Marionette	INFO	Stopped listening on port 50548
+Dynamically enable window occlusion 1
+1687361107581	geckodriver	INFO	Listening on 127.0.0.1:35773
+1687361108012	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\SARAVA~1.SOM\\AppData\\Local\\Temp\\rust_mozprofileLGE9OS"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1687361108721	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1687361108738	Marionette	INFO	Listening on port 50638
+Read port: 50638
+1687361109041	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Jun 21, 2023 8:25:12 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+console.error: Region.sys.mjs: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 762))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 414))
+JavaScript warning: https://spider.australiarevival.com/i/5d421499287bb62bd452311781db1729.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.salesforce.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.salesforce.com."
+]]></system-err>
+  </testcase>
+  <testcase name="case24_CheckNewButtonOnLeadsPage" classname="salesforce.Leads" time="4.866">
+    <failure message="Unable to locate element: //*[@id=&quot;Lead_Tab&quot;]/a&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;SARAS-CNB01&apos;, ip: &apos;10.0.0.25&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.7&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 114.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230619081400, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 75876, moz:profile: C:\Users\SARAVA~1.SOM\AppDa..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: b65d335c-a117-48ef-9638-7405dfb5366f&#10;*** Element info: {Using=xpath, value=//*[@id=&quot;Lead_Tab&quot;]/a}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: //*[@id="Lead_Tab"]/a
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SARAS-CNB01', ip: '10.0.0.25', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 114.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230619081400, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 75876, moz:profile: C:\Users\SARAVA~1.SOM\AppDa..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: b65d335c-a117-48ef-9638-7405dfb5366f
+*** Element info: {Using=xpath, value=//*[@id="Lead_Tab"]/a}
+	at salesforce.Leads.case24_CheckNewButtonOnLeadsPage(Leads.java:193)
+</failure>
+    <system-out><![CDATA[driver got it in listerners utility=FirefoxDriver: firefox on WINDOWS (2ac40cd3-74f2-4b9d-a85e-c12b91dce5b7)
+2023-06-21 08:25:22,887 INFO  SalesForceBaseTest.java:74 - Browser closed
+2023-06-21 08:25:28,101 INFO  SalesForceBaseTest.java:109 - firefoxBrowser opened
+2023-06-21 08:25:30,404 INFO  SalesForceBaseTest.java:146 - Url entered
+2023-06-21 08:25:30,404 INFO  SalesForceBaseTest.java:66 - TestInitialize completed
+2023-06-21 08:25:31,026 INFO  SalesForceBaseTest.java:182 - usernameelement cleared 
+2023-06-21 08:25:31,127 INFO  SalesForceBaseTest.java:166 - username is entered to the field
+2023-06-21 08:25:33,222 INFO  SalesForceBaseTest.java:182 - Passwordelement cleared 
+2023-06-21 08:25:33,251 INFO  SalesForceBaseTest.java:166 - Password is entered to the field
+2023-06-21 08:25:35,245 INFO  SalesForceBaseTest.java:195 - Login Button is clicked
+]]></system-out>
+    <system-err><![CDATA[1687361120165	Marionette	INFO	Stopped listening on port 50638
+Dynamically enable window occlusion 1
+1687361123213	geckodriver	INFO	Listening on 127.0.0.1:28287
+1687361123529	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\SARAVA~1.SOM\\AppData\\Local\\Temp\\rust_mozprofileeoDIiC"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1687361124140	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1687361124154	Marionette	INFO	Listening on port 50708
+Read port: 50708
+1687361124411	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Jun 21, 2023 8:25:27 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+JavaScript warning: https://spider.australiarevival.com/i/5d421499287bb62bd452311781db1729.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.salesforce.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.salesforce.com."
+]]></system-err>
+  </testcase>
+  <testcase name="case25_CreateNewContact" classname="salesforce.ContactsTest" time="4.929">
+    <failure message="Unable to locate element: //li[@id=&apos;Contact_Tab&apos;]&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;SARAS-CNB01&apos;, ip: &apos;10.0.0.25&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.7&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 114.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230619081400, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 71968, moz:profile: C:\Users\SARAVA~1.SOM\AppDa..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 36a8f956-1d3c-411e-8bc8-6c5023b820f4&#10;*** Element info: {Using=xpath, value=//li[@id=&apos;Contact_Tab&apos;]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: //li[@id='Contact_Tab']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SARAS-CNB01', ip: '10.0.0.25', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 114.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230619081400, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 71968, moz:profile: C:\Users\SARAVA~1.SOM\AppDa..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 36a8f956-1d3c-411e-8bc8-6c5023b820f4
+*** Element info: {Using=xpath, value=//li[@id='Contact_Tab']}
+	at salesforce.ContactsTest.case25_CreateNewContact(ContactsTest.java:19)
+</failure>
+    <system-out><![CDATA[driver got it in listerners utility=FirefoxDriver: firefox on WINDOWS (b65d335c-a117-48ef-9638-7405dfb5366f)
+2023-06-21 08:25:37,454 INFO  SalesForceBaseTest.java:74 - Browser closed
+2023-06-21 08:25:43,355 INFO  SalesForceBaseTest.java:109 - firefoxBrowser opened
+2023-06-21 08:25:45,941 INFO  SalesForceBaseTest.java:146 - Url entered
+2023-06-21 08:25:45,941 INFO  SalesForceBaseTest.java:66 - TestInitialize completed
+2023-06-21 08:25:46,270 INFO  SalesForceBaseTest.java:182 - usernameelement cleared 
+2023-06-21 08:25:46,422 INFO  SalesForceBaseTest.java:166 - username is entered to the field
+2023-06-21 08:25:48,507 INFO  SalesForceBaseTest.java:182 - Passwordelement cleared 
+2023-06-21 08:25:48,538 INFO  SalesForceBaseTest.java:166 - Password is entered to the field
+2023-06-21 08:25:50,841 INFO  SalesForceBaseTest.java:195 - Login Button is clicked
+]]></system-out>
+    <system-err><![CDATA[1687361135339	Marionette	INFO	Stopped listening on port 50708
+Dynamically enable window occlusion 1
+1687361137615	geckodriver	INFO	Listening on 127.0.0.1:41825
+1687361138190	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\SARAVA~1.SOM\\AppData\\Local\\Temp\\rust_mozprofile3W5aAk"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1687361138850	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1687361138861	Marionette	INFO	Listening on port 50797
+Read port: 50797
+1687361139244	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Jun 21, 2023 8:25:43 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+console.error: Region.sys.mjs: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 762))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 414))
+JavaScript warning: https://spider.australiarevival.com/i/5d421499287bb62bd452311781db1729.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.salesforce.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.salesforce.com."
+]]></system-err>
+  </testcase>
+  <testcase name="case26_CreateNewViewInContactPage" classname="salesforce.ContactsTest" time="5.142">
+    <failure message="Unable to locate element: //div[@id=&apos;tabContainer&apos;]/nav/ul/li[@id=&apos;Contact_Tab&apos;]&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;SARAS-CNB01&apos;, ip: &apos;10.0.0.25&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.7&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 114.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230619081400, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 69828, moz:profile: C:\Users\SARAVA~1.SOM\AppDa..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: bd3fd772-4df7-4215-acc1-2d89bf199bff&#10;*** Element info: {Using=xpath, value=//div[@id=&apos;tabContainer&apos;]/nav/ul/li[@id=&apos;Contact_Tab&apos;]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: //div[@id='tabContainer']/nav/ul/li[@id='Contact_Tab']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SARAS-CNB01', ip: '10.0.0.25', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 114.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230619081400, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 69828, moz:profile: C:\Users\SARAVA~1.SOM\AppDa..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: bd3fd772-4df7-4215-acc1-2d89bf199bff
+*** Element info: {Using=xpath, value=//div[@id='tabContainer']/nav/ul/li[@id='Contact_Tab']}
+	at salesforce.ContactsTest.case26_CreateNewViewInContactPage(ContactsTest.java:52)
+</failure>
+    <system-out><![CDATA[driver got it in listerners utility=FirefoxDriver: firefox on WINDOWS (36a8f956-1d3c-411e-8bc8-6c5023b820f4)
+2023-06-21 08:25:53,244 INFO  SalesForceBaseTest.java:74 - Browser closed
+2023-06-21 08:25:59,003 INFO  SalesForceBaseTest.java:109 - firefoxBrowser opened
+2023-06-21 08:26:01,325 INFO  SalesForceBaseTest.java:146 - Url entered
+2023-06-21 08:26:01,325 INFO  SalesForceBaseTest.java:66 - TestInitialize completed
+2023-06-21 08:26:02,193 INFO  SalesForceBaseTest.java:182 - usernameelement cleared 
+2023-06-21 08:26:02,299 INFO  SalesForceBaseTest.java:166 - username is entered to the field
+2023-06-21 08:26:04,400 INFO  SalesForceBaseTest.java:182 - Passwordelement cleared 
+2023-06-21 08:26:04,443 INFO  SalesForceBaseTest.java:166 - Password is entered to the field
+2023-06-21 08:26:06,448 INFO  SalesForceBaseTest.java:195 - Login Button is clicked
+]]></system-out>
+    <system-err><![CDATA[1687361150949	Marionette	INFO	Stopped listening on port 50797
+Dynamically enable window occlusion 1
+1687361153688	geckodriver	INFO	Listening on 127.0.0.1:18248
+1687361153810	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\SARAVA~1.SOM\\AppData\\Local\\Temp\\rust_mozprofiledSyqmk"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1687361154967	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1687361154982	Marionette	INFO	Listening on port 50867
+Read port: 50867
+1687361155354	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Jun 21, 2023 8:25:58 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+JavaScript warning: https://spider.australiarevival.com/i/5d421499287bb62bd452311781db1729.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.salesforce.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.salesforce.com."
+]]></system-err>
+  </testcase>
+  <testcase name="case27_RecentlyCreatedContactInContactPage" classname="salesforce.ContactsTest" time="7.927">
+    <failure message="Unable to locate element: //div[@id=&apos;tabContainer&apos;]/nav/ul/li[@id=&apos;Contact_Tab&apos;]&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;SARAS-CNB01&apos;, ip: &apos;10.0.0.25&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.7&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 114.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230619081400, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 74216, moz:profile: C:\Users\SARAVA~1.SOM\AppDa..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: ad4d9bc4-1edb-4201-b332-509f528a6585&#10;*** Element info: {Using=xpath, value=//div[@id=&apos;tabContainer&apos;]/nav/ul/li[@id=&apos;Contact_Tab&apos;]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: //div[@id='tabContainer']/nav/ul/li[@id='Contact_Tab']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SARAS-CNB01', ip: '10.0.0.25', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 114.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230619081400, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 74216, moz:profile: C:\Users\SARAVA~1.SOM\AppDa..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: ad4d9bc4-1edb-4201-b332-509f528a6585
+*** Element info: {Using=xpath, value=//div[@id='tabContainer']/nav/ul/li[@id='Contact_Tab']}
+	at salesforce.ContactsTest.case27_RecentlyCreatedContactInContactPage(ContactsTest.java:91)
+</failure>
+    <system-out><![CDATA[driver got it in listerners utility=FirefoxDriver: firefox on WINDOWS (bd3fd772-4df7-4215-acc1-2d89bf199bff)
+2023-06-21 08:26:09,114 INFO  SalesForceBaseTest.java:74 - Browser closed
+2023-06-21 08:26:14,333 INFO  SalesForceBaseTest.java:109 - firefoxBrowser opened
+2023-06-21 08:26:16,954 INFO  SalesForceBaseTest.java:146 - Url entered
+2023-06-21 08:26:16,954 INFO  SalesForceBaseTest.java:66 - TestInitialize completed
+2023-06-21 08:26:17,259 INFO  SalesForceBaseTest.java:182 - usernameelement cleared 
+2023-06-21 08:26:17,335 INFO  SalesForceBaseTest.java:166 - username is entered to the field
+2023-06-21 08:26:19,447 INFO  SalesForceBaseTest.java:182 - Passwordelement cleared 
+2023-06-21 08:26:19,485 INFO  SalesForceBaseTest.java:166 - Password is entered to the field
+2023-06-21 08:26:24,874 INFO  SalesForceBaseTest.java:195 - Login Button is clicked
+]]></system-out>
+    <system-err><![CDATA[1687361166544	Marionette	INFO	Stopped listening on port 50867
+Dynamically enable window occlusion 1
+1687361169331	geckodriver	INFO	Listening on 127.0.0.1:5536
+1687361169825	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\SARAVA~1.SOM\\AppData\\Local\\Temp\\rust_mozprofilef7m2Z4"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1687361170581	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1687361170594	Marionette	INFO	Listening on port 50950
+Read port: 50950
+1687361170851	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Jun 21, 2023 8:26:14 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.salesforce.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.salesforce.com."
+]]></system-err>
+  </testcase>
+  <testcase name="case28_CheckMyContactsInContactPage" classname="salesforce.ContactsTest" time="4.812">
+    <failure message="Unable to locate element: //div[@id=&apos;tabContainer&apos;]/nav/ul/li[@id=&apos;Contact_Tab&apos;]&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;SARAS-CNB01&apos;, ip: &apos;10.0.0.25&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.7&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 114.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230619081400, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 79588, moz:profile: C:\Users\SARAVA~1.SOM\AppDa..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: b72c0a22-5bf9-4d0c-a83b-b78e3cc40657&#10;*** Element info: {Using=xpath, value=//div[@id=&apos;tabContainer&apos;]/nav/ul/li[@id=&apos;Contact_Tab&apos;]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: //div[@id='tabContainer']/nav/ul/li[@id='Contact_Tab']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SARAS-CNB01', ip: '10.0.0.25', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 114.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230619081400, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 79588, moz:profile: C:\Users\SARAVA~1.SOM\AppDa..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: b72c0a22-5bf9-4d0c-a83b-b78e3cc40657
+*** Element info: {Using=xpath, value=//div[@id='tabContainer']/nav/ul/li[@id='Contact_Tab']}
+	at salesforce.ContactsTest.case28_CheckMyContactsInContactPage(ContactsTest.java:115)
+</failure>
+    <system-out><![CDATA[driver got it in listerners utility=FirefoxDriver: firefox on WINDOWS (ad4d9bc4-1edb-4201-b332-509f528a6585)
+2023-06-21 08:26:27,120 INFO  SalesForceBaseTest.java:74 - Browser closed
+2023-06-21 08:26:32,693 INFO  SalesForceBaseTest.java:109 - firefoxBrowser opened
+2023-06-21 08:26:54,243 INFO  SalesForceBaseTest.java:146 - Url entered
+2023-06-21 08:26:54,243 INFO  SalesForceBaseTest.java:66 - TestInitialize completed
+2023-06-21 08:26:54,730 INFO  SalesForceBaseTest.java:182 - usernameelement cleared 
+2023-06-21 08:26:54,780 INFO  SalesForceBaseTest.java:166 - username is entered to the field
+2023-06-21 08:26:56,852 INFO  SalesForceBaseTest.java:182 - Passwordelement cleared 
+2023-06-21 08:26:56,883 INFO  SalesForceBaseTest.java:166 - Password is entered to the field
+2023-06-21 08:26:59,030 INFO  SalesForceBaseTest.java:195 - Login Button is clicked
+]]></system-out>
+    <system-err><![CDATA[1687361184958	Marionette	INFO	Stopped listening on port 50950
+Dynamically enable window occlusion 1
+[Parent 74216, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:787
+1687361187287	geckodriver	INFO	Listening on 127.0.0.1:17209
+1687361187687	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\SARAVA~1.SOM\\AppData\\Local\\Temp\\rust_mozprofileUh2WJc"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1687361188327	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1687361188345	Marionette	INFO	Listening on port 51010
+Read port: 51010
+1687361188675	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Jun 21, 2023 8:26:32 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+console.error: Region.sys.mjs: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 762))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 414))
+JavaScript warning: https://spider.australiarevival.com/i/5d421499287bb62bd452311781db1729.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.salesforce.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.salesforce.com."
+]]></system-err>
+  </testcase>
+  <testcase name="case29_CheckMyContactsInContactPage" classname="salesforce.ContactsTest" time="5.175">
+    <failure message="Unable to locate element: //div[@id=&apos;tabContainer&apos;]/nav/ul/li[@id=&apos;Contact_Tab&apos;]&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;SARAS-CNB01&apos;, ip: &apos;10.0.0.25&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.7&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 114.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230619081400, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 82052, moz:profile: C:\Users\SARAVA~1.SOM\AppDa..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: c2887b4e-6630-4286-85df-17087557dac4&#10;*** Element info: {Using=xpath, value=//div[@id=&apos;tabContainer&apos;]/nav/ul/li[@id=&apos;Contact_Tab&apos;]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: //div[@id='tabContainer']/nav/ul/li[@id='Contact_Tab']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SARAS-CNB01', ip: '10.0.0.25', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 114.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230619081400, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 82052, moz:profile: C:\Users\SARAVA~1.SOM\AppDa..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: c2887b4e-6630-4286-85df-17087557dac4
+*** Element info: {Using=xpath, value=//div[@id='tabContainer']/nav/ul/li[@id='Contact_Tab']}
+	at salesforce.ContactsTest.case29_CheckMyContactsInContactPage(ContactsTest.java:145)
+</failure>
+    <system-out><![CDATA[driver got it in listerners utility=FirefoxDriver: firefox on WINDOWS (b72c0a22-5bf9-4d0c-a83b-b78e3cc40657)
+2023-06-21 08:27:00,834 INFO  SalesForceBaseTest.java:74 - Browser closed
+2023-06-21 08:27:06,298 INFO  SalesForceBaseTest.java:109 - firefoxBrowser opened
+2023-06-21 08:27:09,060 INFO  SalesForceBaseTest.java:146 - Url entered
+2023-06-21 08:27:09,061 INFO  SalesForceBaseTest.java:66 - TestInitialize completed
+2023-06-21 08:27:09,462 INFO  SalesForceBaseTest.java:182 - usernameelement cleared 
+2023-06-21 08:27:09,615 INFO  SalesForceBaseTest.java:166 - username is entered to the field
+2023-06-21 08:27:11,738 INFO  SalesForceBaseTest.java:182 - Passwordelement cleared 
+2023-06-21 08:27:11,770 INFO  SalesForceBaseTest.java:166 - Password is entered to the field
+2023-06-21 08:27:14,213 INFO  SalesForceBaseTest.java:195 - Login Button is clicked
+]]></system-out>
+    <system-err><![CDATA[1687361219136	Marionette	INFO	Stopped listening on port 51010
+Dynamically enable window occlusion 1
+console.error: (new TypeError("NetworkError: Network request failed", "resource://services-settings/Utils.sys.mjs", 229))
+console.error: (new TypeError("NetworkError: Network request failed", "resource://services-settings/Utils.sys.mjs", 229))
+console.error: (new TypeError("NetworkError: Network request failed", "resource://services-settings/Utils.sys.mjs", 229))
+console.error: services.settings: 
+  Message: NetworkError: Network error: TypeError: NetworkError: Network request failed
+  Stack:
+    APIError@resource://services-settings/RemoteSettingsClient.sys.mjs:111:1
+NetworkError@resource://services-settings/RemoteSettingsClient.sys.mjs:115:5
+_adjustedError@resource://services-settings/RemoteSettingsClient.sys.mjs:911:14
+maybeSync@resource://services-settings/RemoteSettingsClient.sys.mjs:816:38
+
+console.warn: services.settings: main/pioneer-study-addons-v1 sync interrupted by shutdown
+console.error: (new AbortError("IndexedDB: main/tippytop getLastModified() IndexedDB:  execute() A request was aborted, for example through a call to IDBTransaction.abort.", "resource://services-settings/IDBHelpers.jsm", 18))
+1687361220972	geckodriver	INFO	Listening on 127.0.0.1:44820
+1687361221384	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\SARAVA~1.SOM\\AppData\\Local\\Temp\\rust_mozprofilehX6Xxz"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1687361222351	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1687361222360	Marionette	INFO	Listening on port 51092
+Read port: 51092
+1687361222736	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Jun 21, 2023 8:27:06 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+JavaScript warning: https://spider.australiarevival.com/i/5d421499287bb62bd452311781db1729.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.salesforce.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.salesforce.com."
+]]></system-err>
+  </testcase>
+  <testcase name="case30_CheckErrorMessageInContactPage" classname="salesforce.ContactsTest" time="6.201">
+    <failure message="Unable to locate element: //div[@id=&apos;tabContainer&apos;]/nav/ul/li[@id=&apos;Contact_Tab&apos;]&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;SARAS-CNB01&apos;, ip: &apos;10.0.0.25&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.7&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 114.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230619081400, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 80248, moz:profile: C:\Users\SARAVA~1.SOM\AppDa..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: be9a1a4e-38e2-4e44-9a44-ae63a3cf47f3&#10;*** Element info: {Using=xpath, value=//div[@id=&apos;tabContainer&apos;]/nav/ul/li[@id=&apos;Contact_Tab&apos;]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: //div[@id='tabContainer']/nav/ul/li[@id='Contact_Tab']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SARAS-CNB01', ip: '10.0.0.25', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 114.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230619081400, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 80248, moz:profile: C:\Users\SARAVA~1.SOM\AppDa..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: be9a1a4e-38e2-4e44-9a44-ae63a3cf47f3
+*** Element info: {Using=xpath, value=//div[@id='tabContainer']/nav/ul/li[@id='Contact_Tab']}
+	at salesforce.ContactsTest.case30_CheckErrorMessageInContactPage(ContactsTest.java:173)
+</failure>
+    <system-out><![CDATA[driver got it in listerners utility=FirefoxDriver: firefox on WINDOWS (c2887b4e-6630-4286-85df-17087557dac4)
+2023-06-21 08:27:16,250 INFO  SalesForceBaseTest.java:74 - Browser closed
+2023-06-21 08:27:21,596 INFO  SalesForceBaseTest.java:109 - firefoxBrowser opened
+2023-06-21 08:27:24,044 INFO  SalesForceBaseTest.java:146 - Url entered
+2023-06-21 08:27:24,045 INFO  SalesForceBaseTest.java:66 - TestInitialize completed
+2023-06-21 08:27:24,497 INFO  SalesForceBaseTest.java:182 - usernameelement cleared 
+2023-06-21 08:27:24,756 INFO  SalesForceBaseTest.java:166 - username is entered to the field
+2023-06-21 08:27:26,845 INFO  SalesForceBaseTest.java:182 - Passwordelement cleared 
+2023-06-21 08:27:26,870 INFO  SalesForceBaseTest.java:166 - Password is entered to the field
+2023-06-21 08:27:30,220 INFO  SalesForceBaseTest.java:195 - Login Button is clicked
+]]></system-out>
+    <system-err><![CDATA[1687361234314	Marionette	INFO	Stopped listening on port 51092
+Dynamically enable window occlusion 1
+[Parent 82052, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:787
+1687361236444	geckodriver	INFO	Listening on 127.0.0.1:6707
+1687361236902	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\SARAVA~1.SOM\\AppData\\Local\\Temp\\rust_mozprofileXBb835"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1687361237536	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1687361237547	Marionette	INFO	Listening on port 51178
+Read port: 51178
+1687361237827	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Jun 21, 2023 8:27:21 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+JavaScript warning: https://spider.australiarevival.com/i/5d421499287bb62bd452311781db1729.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.salesforce.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.salesforce.com."
+]]></system-err>
+  </testcase>
+  <testcase name="case31_CheckCancelButtonInCreateNewView" classname="salesforce.ContactsTest" time="4.622">
+    <failure message="Unable to locate element: //div[@id=&apos;tabContainer&apos;]/nav/ul/li[@id=&apos;Contact_Tab&apos;]&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;SARAS-CNB01&apos;, ip: &apos;10.0.0.25&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.7&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 114.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230619081400, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 59592, moz:profile: C:\Users\SARAVA~1.SOM\AppDa..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: d82a66c4-c0b1-4681-a081-e19105faa3ef&#10;*** Element info: {Using=xpath, value=//div[@id=&apos;tabContainer&apos;]/nav/ul/li[@id=&apos;Contact_Tab&apos;]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: //div[@id='tabContainer']/nav/ul/li[@id='Contact_Tab']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SARAS-CNB01', ip: '10.0.0.25', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 114.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230619081400, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 59592, moz:profile: C:\Users\SARAVA~1.SOM\AppDa..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d82a66c4-c0b1-4681-a081-e19105faa3ef
+*** Element info: {Using=xpath, value=//div[@id='tabContainer']/nav/ul/li[@id='Contact_Tab']}
+	at salesforce.ContactsTest.case31_CheckCancelButtonInCreateNewView(ContactsTest.java:205)
+</failure>
+    <system-out><![CDATA[driver got it in listerners utility=FirefoxDriver: firefox on WINDOWS (be9a1a4e-38e2-4e44-9a44-ae63a3cf47f3)
+2023-06-21 08:27:32,310 INFO  SalesForceBaseTest.java:74 - Browser closed
+2023-06-21 08:27:37,709 INFO  SalesForceBaseTest.java:109 - firefoxBrowser opened
+2023-06-21 08:27:40,356 INFO  SalesForceBaseTest.java:146 - Url entered
+2023-06-21 08:27:40,356 INFO  SalesForceBaseTest.java:66 - TestInitialize completed
+2023-06-21 08:27:40,546 INFO  SalesForceBaseTest.java:182 - usernameelement cleared 
+2023-06-21 08:27:40,735 INFO  SalesForceBaseTest.java:166 - username is entered to the field
+2023-06-21 08:27:42,821 INFO  SalesForceBaseTest.java:182 - Passwordelement cleared 
+2023-06-21 08:27:42,846 INFO  SalesForceBaseTest.java:166 - Password is entered to the field
+2023-06-21 08:27:44,951 INFO  SalesForceBaseTest.java:195 - Login Button is clicked
+]]></system-out>
+    <system-err><![CDATA[1687361250309	Marionette	INFO	Stopped listening on port 51178
+Dynamically enable window occlusion 1
+1687361252448	geckodriver	INFO	Listening on 127.0.0.1:38278
+1687361252866	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\SARAVA~1.SOM\\AppData\\Local\\Temp\\rust_mozprofileRZDaBS"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1687361253589	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1687361253602	Marionette	INFO	Listening on port 51262
+Read port: 51262
+1687361253956	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Jun 21, 2023 8:27:37 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+console.error: Region.sys.mjs: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 762))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 414))
+JavaScript warning: https://spider.australiarevival.com/i/5d421499287bb62bd452311781db1729.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.salesforce.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.salesforce.com."
+]]></system-err>
+  </testcase>
+  <testcase name="case32_saveAndNewButtonInNewContactpage" classname="salesforce.ContactsTest" time="3.266">
+    <failure message="Unable to locate element: //div[@id=&apos;tabContainer&apos;]/nav/ul/li[@id=&apos;Contact_Tab&apos;]&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;SARAS-CNB01&apos;, ip: &apos;10.0.0.25&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.7&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 114.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230619081400, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 81552, moz:profile: C:\Users\SARAVA~1.SOM\AppDa..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 2354c749-b461-4349-be1d-ca673cfe3b3d&#10;*** Element info: {Using=xpath, value=//div[@id=&apos;tabContainer&apos;]/nav/ul/li[@id=&apos;Contact_Tab&apos;]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: //div[@id='tabContainer']/nav/ul/li[@id='Contact_Tab']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SARAS-CNB01', ip: '10.0.0.25', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 114.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230619081400, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 81552, moz:profile: C:\Users\SARAVA~1.SOM\AppDa..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 2354c749-b461-4349-be1d-ca673cfe3b3d
+*** Element info: {Using=xpath, value=//div[@id='tabContainer']/nav/ul/li[@id='Contact_Tab']}
+	at salesforce.ContactsTest.case32_saveAndNewButtonInNewContactpage(ContactsTest.java:240)
+</failure>
+    <system-out><![CDATA[driver got it in listerners utility=FirefoxDriver: firefox on WINDOWS (d82a66c4-c0b1-4681-a081-e19105faa3ef)
+2023-06-21 08:27:46,750 INFO  SalesForceBaseTest.java:74 - Browser closed
+2023-06-21 08:27:52,052 INFO  SalesForceBaseTest.java:109 - firefoxBrowser opened
+2023-06-21 08:27:55,062 INFO  SalesForceBaseTest.java:146 - Url entered
+2023-06-21 08:27:55,062 INFO  SalesForceBaseTest.java:66 - TestInitialize completed
+2023-06-21 08:27:55,687 INFO  SalesForceBaseTest.java:182 - usernameelement cleared 
+2023-06-21 08:27:55,774 INFO  SalesForceBaseTest.java:166 - username is entered to the field
+2023-06-21 08:27:57,859 INFO  SalesForceBaseTest.java:182 - Passwordelement cleared 
+2023-06-21 08:27:57,894 INFO  SalesForceBaseTest.java:166 - Password is entered to the field
+2023-06-21 08:27:58,297 INFO  SalesForceBaseTest.java:195 - Login Button is clicked
+]]></system-out>
+    <system-err><![CDATA[1687361265050	Marionette	INFO	Stopped listening on port 51262
+Dynamically enable window occlusion 1
+1687361266920	geckodriver	INFO	Listening on 127.0.0.1:39472
+1687361267369	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\SARAVA~1.SOM\\AppData\\Local\\Temp\\rust_mozprofileFs8AJk"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1687361268185	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1687361268197	Marionette	INFO	Listening on port 51336
+Read port: 51336
+1687361268473	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Jun 21, 2023 8:27:51 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+JavaScript warning: https://spider.australiarevival.com/i/5d421499287bb62bd452311781db1729.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.salesforce.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.salesforce.com."
+]]></system-err>
+  </testcase>
+  <testcase name="case36_BlockingEventInCalendar" classname="salesforce.RandomScenarios" time="24.576">
+    <failure message="Unable to locate element: //div[2]/ul/li[5]/a&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;SARAS-CNB01&apos;, ip: &apos;10.0.0.25&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.7&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 114.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230619081400, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 66804, moz:profile: C:\Users\SARAVA~1.SOM\AppDa..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 6e8f4e00-98c5-41e1-b334-9ff343704476&#10;*** Element info: {Using=xpath, value=//div[2]/ul/li[5]/a}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: //div[2]/ul/li[5]/a
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SARAS-CNB01', ip: '10.0.0.25', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 114.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230619081400, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 66804, moz:profile: C:\Users\SARAVA~1.SOM\AppDa..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 6e8f4e00-98c5-41e1-b334-9ff343704476
+*** Element info: {Using=xpath, value=//div[2]/ul/li[5]/a}
+	at salesforce.RandomScenarios.case36_BlockingEventInCalendar(RandomScenarios.java:320)
+</failure>
+    <system-out><![CDATA[driver got it in listerners utility=FirefoxDriver: firefox on WINDOWS (2354c749-b461-4349-be1d-ca673cfe3b3d)
+2023-06-21 08:28:00,677 INFO  SalesForceBaseTest.java:74 - Browser closed
+2023-06-21 08:28:07,051 INFO  SalesForceBaseTest.java:109 - firefoxBrowser opened
+2023-06-21 08:28:09,203 INFO  SalesForceBaseTest.java:146 - Url entered
+2023-06-21 08:28:09,203 INFO  SalesForceBaseTest.java:66 - TestInitialize completed
+2023-06-21 08:28:09,485 INFO  SalesForceBaseTest.java:182 - usernameelement cleared 
+2023-06-21 08:28:09,714 INFO  SalesForceBaseTest.java:166 - username is entered to the field
+2023-06-21 08:28:11,792 INFO  SalesForceBaseTest.java:182 - Passwordelement cleared 
+2023-06-21 08:28:11,818 INFO  SalesForceBaseTest.java:166 - Password is entered to the field
+2023-06-21 08:28:17,584 INFO  SalesForceBaseTest.java:195 - Login Button is clicked
+2023-06-21 08:28:19,617 INFO  SalesForceBaseTest.java:195 - Home Tab is clicked
+2023-06-21 08:28:27,900 INFO  SalesForceBaseTest.java:195 - No Thanks is clicked
+2023-06-21 08:28:28,203 INFO  SalesForceBaseTest.java:195 - Send TO SalesForce is clicked
+2023-06-21 08:28:28,252 INFO  RandomScenarios.java:234 - User Name is displayed with First and Last name.
+2023-06-21 08:28:28,263 INFO  RandomScenarios.java:256 - Date format is displayed as expected.
+2023-06-21 08:28:29,325 INFO  SalesForceBaseTest.java:195 - Current Date Link is clicked
+2023-06-21 08:28:29,328 INFO  SalesForceBaseTest.java:152 - Actual title is: Calendar for Rajeeni Sarav ~ Salesforce - Developer Edition
+2023-06-21 08:28:29,328 INFO  SalesForceBaseTest.java:156 - Title matched in the page
+2023-06-21 08:28:29,328 INFO  RandomScenarios.java:274 - Calender for FirstName and LastName page is displayed
+2023-06-21 08:28:30,281 INFO  SalesForceBaseTest.java:195 - Click on 8PM is clicked
+2023-06-21 08:28:33,284 INFO  SalesForceBaseTest.java:152 - Actual title is: Calendar: New Event ~ Salesforce - Developer Edition
+2023-06-21 08:28:33,284 INFO  SalesForceBaseTest.java:156 - Title matched in the page
+2023-06-21 08:28:33,284 INFO  RandomScenarios.java:294 - New Event page is displayed
+2023-06-21 08:28:33,722 INFO  SalesForceBaseTest.java:195 - Clicking on Subject Combo is clicked
+]]></system-out>
+    <system-err><![CDATA[1687361278421	Marionette	INFO	Stopped listening on port 51336
+Dynamically enable window occlusion 1
+1687361280913	geckodriver	INFO	Listening on 127.0.0.1:41171
+1687361281273	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\SARAVA~1.SOM\\AppData\\Local\\Temp\\rust_mozprofilebbjhuW"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1687361282324	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1687361282334	Marionette	INFO	Listening on port 51413
+Read port: 51413
+1687361282812	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Jun 21, 2023 8:28:06 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+console.error: Region.sys.mjs: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 762))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 414))
+JavaScript warning: https://spider.australiarevival.com/i/5d421499287bb62bd452311781db1729.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.salesforce.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.salesforce.com."
+]]></system-err>
+  </testcase>
+  <testcase name="case37_BlockingEventRecurrence" classname="salesforce.RandomScenarios" time="23.85">
+    <failure message="Unable to locate element: //div[2]/ul/li[5]/a&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;SARAS-CNB01&apos;, ip: &apos;10.0.0.25&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.7&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 114.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230619081400, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 61572, moz:profile: C:\Users\SARAVA~1.SOM\AppDa..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 9b05b015-0134-48b4-a353-eba6164e66db&#10;*** Element info: {Using=xpath, value=//div[2]/ul/li[5]/a}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: //div[2]/ul/li[5]/a
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SARAS-CNB01', ip: '10.0.0.25', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 114.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230619081400, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 61572, moz:profile: C:\Users\SARAVA~1.SOM\AppDa..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 9b05b015-0134-48b4-a353-eba6164e66db
+*** Element info: {Using=xpath, value=//div[2]/ul/li[5]/a}
+	at salesforce.RandomScenarios.case37_BlockingEventRecurrence(RandomScenarios.java:459)
+</failure>
+    <system-out><![CDATA[driver got it in listerners utility=FirefoxDriver: firefox on WINDOWS (6e8f4e00-98c5-41e1-b334-9ff343704476)
+2023-06-21 08:28:33,904 INFO  SalesForceBaseTest.java:74 - Browser closed
+2023-06-21 08:28:41,201 INFO  SalesForceBaseTest.java:109 - firefoxBrowser opened
+2023-06-21 08:28:42,744 INFO  SalesForceBaseTest.java:146 - Url entered
+2023-06-21 08:28:42,748 INFO  SalesForceBaseTest.java:66 - TestInitialize completed
+2023-06-21 08:28:43,355 INFO  SalesForceBaseTest.java:182 - usernameelement cleared 
+2023-06-21 08:28:43,448 INFO  SalesForceBaseTest.java:166 - username is entered to the field
+2023-06-21 08:28:45,535 INFO  SalesForceBaseTest.java:182 - Passwordelement cleared 
+2023-06-21 08:28:45,561 INFO  SalesForceBaseTest.java:166 - Password is entered to the field
+2023-06-21 08:28:50,665 INFO  SalesForceBaseTest.java:195 - Login Button is clicked
+2023-06-21 08:28:53,001 INFO  SalesForceBaseTest.java:195 - Home Tab is clicked
+2023-06-21 08:29:01,267 INFO  SalesForceBaseTest.java:195 - No Thanks is clicked
+2023-06-21 08:29:01,560 INFO  SalesForceBaseTest.java:195 - Send TO SalesForce is clicked
+2023-06-21 08:29:01,595 INFO  RandomScenarios.java:373 - User Name is displayed with First and Last name.
+2023-06-21 08:29:01,608 INFO  RandomScenarios.java:395 - Date format is displayed as expected.
+2023-06-21 08:29:02,436 INFO  SalesForceBaseTest.java:195 - Current Date Link is clicked
+2023-06-21 08:29:02,441 INFO  SalesForceBaseTest.java:152 - Actual title is: Calendar for Rajeeni Sarav ~ Salesforce - Developer Edition
+2023-06-21 08:29:02,441 INFO  SalesForceBaseTest.java:156 - Title matched in the page
+2023-06-21 08:29:02,441 INFO  RandomScenarios.java:413 - Calender for FirstName and LastName page is displayed
+2023-06-21 08:29:03,216 INFO  SalesForceBaseTest.java:195 - Click on 4PM is clicked
+2023-06-21 08:29:06,217 INFO  SalesForceBaseTest.java:152 - Actual title is: Calendar: New Event ~ Salesforce - Developer Edition
+2023-06-21 08:29:06,218 INFO  SalesForceBaseTest.java:156 - Title matched in the page
+2023-06-21 08:29:06,218 INFO  RandomScenarios.java:433 - New Event page is displayed
+2023-06-21 08:29:06,573 INFO  SalesForceBaseTest.java:195 - Clicking on Subject Combo is clicked
+]]></system-out>
+    <system-err><![CDATA[JavaScript error: resource://devtools/client/jsonview/Sniffer.sys.mjs, line 50: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIChannel.contentType]
+JavaScript error: resource://gre/actors/BrowserElementParent.sys.mjs, line 21: TypeError: browser is null
+1687361314436	geckodriver	INFO	Listening on 127.0.0.1:48906
+1687361314471	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\SARAVA~1.SOM\\AppData\\Local\\Temp\\rust_mozprofilezD5XwA"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1687361315418	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1687361315428	Marionette	INFO	Listening on port 51527
+Read port: 51527
+1687361315892	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Jun 21, 2023 8:28:40 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+console.error: Region.sys.mjs: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 762))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 414))
+JavaScript warning: https://spider.australiarevival.com/i/5d421499287bb62bd452311781db1729.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.salesforce.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.salesforce.com."
+]]></system-err>
+  </testcase>
+  <testcase name="case_33_UserVerification" classname="salesforce.RandomScenarios" time="23.686"/>
+  <testcase name="case_34_EditedLastNameVerification" classname="salesforce.RandomScenarios" time="4.904">
+    <failure message="Unable to locate element: //li[@id=&apos;home_Tab&apos;]/a&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;SARAS-CNB01&apos;, ip: &apos;10.0.0.25&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.7&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 114.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230619081400, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 66796, moz:profile: C:\Users\SARAVA~1.SOM\AppDa..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 0b96e26a-5f0d-480f-91b9-e0ea48433dd6&#10;*** Element info: {Using=xpath, value=//li[@id=&apos;home_Tab&apos;]/a}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: //li[@id='home_Tab']/a
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SARAS-CNB01', ip: '10.0.0.25', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 114.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230619081400, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 66796, moz:profile: C:\Users\SARAVA~1.SOM\AppDa..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 0b96e26a-5f0d-480f-91b9-e0ea48433dd6
+*** Element info: {Using=xpath, value=//li[@id='home_Tab']/a}
+	at salesforce.RandomScenarios.case_34_EditedLastNameVerification(RandomScenarios.java:77)
+</failure>
+    <system-out><![CDATA[2023-06-21 08:29:42,711 INFO  SalesForceBaseTest.java:74 - Browser closed
+2023-06-21 08:29:48,681 INFO  SalesForceBaseTest.java:109 - firefoxBrowser opened
+2023-06-21 08:29:51,243 INFO  SalesForceBaseTest.java:146 - Url entered
+2023-06-21 08:29:51,243 INFO  SalesForceBaseTest.java:66 - TestInitialize completed
+2023-06-21 08:29:51,752 INFO  SalesForceBaseTest.java:182 - usernameelement cleared 
+2023-06-21 08:29:51,902 INFO  SalesForceBaseTest.java:166 - username is entered to the field
+2023-06-21 08:29:54,022 INFO  SalesForceBaseTest.java:182 - Passwordelement cleared 
+2023-06-21 08:29:54,061 INFO  SalesForceBaseTest.java:166 - Password is entered to the field
+2023-06-21 08:29:56,176 INFO  SalesForceBaseTest.java:195 - Login Button is clicked
+]]></system-out>
+    <system-err><![CDATA[1687361380518	Marionette	INFO	Stopped listening on port 51642
+Dynamically enable window occlusion 1
+console.error: services.settings: 
+  Message: StorageError: Storage error: Error: IndexedDB: main/fxmonitor-breaches list() IndexedDB:  execute() The application is shutting down
+  Stack:
+    StorageError@resource://services-settings/RemoteSettingsClient.sys.mjs:157:5
+_adjustedError@resource://services-settings/RemoteSettingsClient.sys.mjs:928:14
+maybeSync@resource://services-settings/RemoteSettingsClient.sys.mjs:816:38
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:575:17
+
+console.error: (new Error("IndexedDB: main/ms-images getLastModified() IndexedDB:  execute() The application is shutting down", "resource://services-settings/IDBHelpers.jsm", 18))
+1687361382850	geckodriver	INFO	Listening on 127.0.0.1:28771
+1687361383450	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\SARAVA~1.SOM\\AppData\\Local\\Temp\\rust_mozprofilevOAuOJ"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1687361384298	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 01687361384308	Marionette	INFO	Listening on port 51752
+
+Read port: 51752
+1687361384781	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Jun 21, 2023 8:29:48 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+JavaScript warning: https://spider.australiarevival.com/i/5d421499287bb62bd452311781db1729.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.salesforce.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.salesforce.com."
+]]></system-err>
+  </testcase>
+  <testcase name="case_35_CustomizeTabVerification" classname="salesforce.RandomScenarios" time="5.217">
+    <failure message="Unable to locate element: //li[@id=&quot;AllTab_Tab&quot;]//a&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;SARAS-CNB01&apos;, ip: &apos;10.0.0.25&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.7&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 114.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230619081400, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 63820, moz:profile: C:\Users\SARAVA~1.SOM\AppDa..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: d956cc39-7823-4ab2-95a1-1971719ad6a5&#10;*** Element info: {Using=xpath, value=//li[@id=&quot;AllTab_Tab&quot;]//a}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: //li[@id="AllTab_Tab"]//a
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SARAS-CNB01', ip: '10.0.0.25', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 114.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230619081400, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 63820, moz:profile: C:\Users\SARAVA~1.SOM\AppDa..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d956cc39-7823-4ab2-95a1-1971719ad6a5
+*** Element info: {Using=xpath, value=//li[@id="AllTab_Tab"]//a}
+	at salesforce.RandomScenarios.case_35_CustomizeTabVerification(RandomScenarios.java:151)
+</failure>
+    <system-out><![CDATA[driver got it in listerners utility=FirefoxDriver: firefox on WINDOWS (0b96e26a-5f0d-480f-91b9-e0ea48433dd6)
+2023-06-21 08:29:58,756 INFO  SalesForceBaseTest.java:74 - Browser closed
+2023-06-21 08:30:04,051 INFO  SalesForceBaseTest.java:109 - firefoxBrowser opened
+2023-06-21 08:30:06,781 INFO  SalesForceBaseTest.java:146 - Url entered
+2023-06-21 08:30:06,781 INFO  SalesForceBaseTest.java:66 - TestInitialize completed
+2023-06-21 08:30:07,080 INFO  SalesForceBaseTest.java:182 - usernameelement cleared 
+2023-06-21 08:30:07,277 INFO  SalesForceBaseTest.java:166 - username is entered to the field
+2023-06-21 08:30:09,358 INFO  SalesForceBaseTest.java:182 - Passwordelement cleared 
+2023-06-21 08:30:09,404 INFO  SalesForceBaseTest.java:166 - Password is entered to the field
+2023-06-21 08:30:11,986 INFO  SalesForceBaseTest.java:195 - Login Button is clicked
+Tabs matched before customization
+]]></system-out>
+    <system-err><![CDATA[1687361396276	Marionette	INFO	Stopped listening on port 51752
+Dynamically enable window occlusion 1
+1687361399061	geckodriver	INFO	Listening on 127.0.0.1:3289
+1687361399486	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\SARAVA~1.SOM\\AppData\\Local\\Temp\\rust_mozprofile0tUbPX"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1687361400252	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1687361400263	Marionette	INFO	Listening on port 51837
+Read port: 51837
+1687361400479	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Jun 21, 2023 8:30:03 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+console.error: Region.sys.mjs: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 762))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 414))
+JavaScript warning: https://spider.australiarevival.com/i/5d421499287bb62bd452311781db1729.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.salesforce.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.salesforce.com."
+]]></system-err>
+  </testcase>
+</testsuite>

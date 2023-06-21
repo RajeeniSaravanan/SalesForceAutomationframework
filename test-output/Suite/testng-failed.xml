@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite configfailurepolicy="continue" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="utilities.ListenersTest"/>
+  </listeners>
+  <test thread-count="5" name="chromeTest(failed)">
+    <parameter name="browsername" value="chrome"/>
+    <classes>
+      <class name="salesforce.CreateAccountTest">
+        <methods>
+          <include name="case11_CreateNewView"/>
+          <include name="TestInitialize"/>
+          <include name="case12_EditViewView"/>
+          <include name="case13_MergeAccounts"/>
+          <include name="tearDownAfterTestMethod"/>
+          <include name="setUpForBeforeTest"/>
+          <include name="case10_CreateAccount"/>
+        </methods>
+      </class> <!-- salesforce.CreateAccountTest -->
+      <class name="salesforce.Leads">
+        <methods>
+          <include name="case20_LeadsTab"/>
+          <include name="TestInitialize"/>
+          <include name="case24_CheckNewButtonOnLeadsPage"/>
+          <include name="case21_LeadsSelectView"/>
+          <include name="case23_TodaysLeads"/>
+          <include name="case22_DefaultView"/>
+          <include name="tearDownAfterTestMethod"/>
+          <include name="setUpForBeforeTest"/>
+        </methods>
+      </class> <!-- salesforce.Leads -->
+      <class name="salesforce.UserMenuDropDownTest">
+        <methods>
+          <include name="TestInitialize"/>
+          <include name="case6_MyProfile_userMenuOption1"/>
+          <include name="tearDownAfterTestMethod"/>
+          <include name="setUpForBeforeTest"/>
+          <include name="case7_MySettings_UserMenuDropDown"/>
+        </methods>
+      </class> <!-- salesforce.UserMenuDropDownTest -->
+      <class name="salesforce.CreateOpportunityTest">
+        <methods>
+          <include name="TestInitialize"/>
+          <include name="case16_CreateNewOpty"/>
+          <include name="tearDownAfterTestMethod"/>
+          <include name="setUpForBeforeTest"/>
+        </methods>
+      </class> <!-- salesforce.CreateOpportunityTest -->
+      <class name="salesforce.ContactsTest">
+        <methods>
+          <include name="case25_CreateNewContact"/>
+          <include name="TestInitialize"/>
+          <include name="tearDownAfterTestMethod"/>
+          <include name="case27_RecentlyCreatedContactInContactPage"/>
+          <include name="case28_CheckMyContactsInContactPage"/>
+          <include name="setUpForBeforeTest"/>
+          <include name="case26_CreateNewViewInContactPage"/>
+        </methods>
+      </class> <!-- salesforce.ContactsTest -->
+      <class name="salesforce.RandomScenarios">
+        <methods>
+          <include name="TestInitialize"/>
+          <include name="case_35_CustomizeTabVerification"/>
+          <include name="tearDownAfterTestMethod"/>
+          <include name="setUpForBeforeTest"/>
+          <include name="case37_BlockingEventRecurrence"/>
+        </methods>
+      </class> <!-- salesforce.RandomScenarios -->
+    </classes>
+  </test> <!-- chromeTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

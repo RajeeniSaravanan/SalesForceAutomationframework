@@ -1,0 +1,582 @@
+20230621 08:44:21 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java109 - chromeBrowser opened
+20230621 08:44:24 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java146 - Url entered
+20230621 08:44:24 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java66 - TestInitialize completed
+20230621 08:44:24 INFO  [main] salesforce.LoginTest LoginTest.java17 - case1_LoginErrorMessage Started
+20230621 08:44:26 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java182 - usernameelement cleared 
+20230621 08:44:26 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java166 - username is entered to the field
+20230621 08:44:26 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - login Button is clicked
+20230621 08:44:27 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java139 - Error message matched
+20230621 08:44:28 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java74 - Browser closed
+20230621 08:44:30 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java109 - chromeBrowser opened
+20230621 08:44:32 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java146 - Url entered
+20230621 08:44:32 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java66 - TestInitialize completed
+20230621 08:44:32 INFO  [main] salesforce.LoginTest LoginTest.java38 - case2_Successful_LoginToSalesForce Started
+20230621 08:44:33 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java182 - usernameelement cleared 
+20230621 08:44:35 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java166 - username is entered to the field
+20230621 08:44:37 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java182 - Passwordelement cleared 
+20230621 08:44:37 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java166 - Password is entered to the field
+20230621 08:44:42 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - Login Button is clicked
+20230621 08:44:42 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java152 - Actual title is: Home Page ~ Salesforce - Developer Edition
+20230621 08:44:42 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java156 - Title matched in the page
+20230621 08:44:42 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java74 - Browser closed
+20230621 08:44:44 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java109 - chromeBrowser opened
+20230621 08:44:47 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java146 - Url entered
+20230621 08:44:47 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java66 - TestInitialize completed
+20230621 08:44:47 INFO  [main] salesforce.LoginTest LoginTest.java51 - case3_CheckRememberMe Started
+20230621 08:44:51 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java182 - usernameelement cleared 
+20230621 08:44:51 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java166 - username is entered to the field
+20230621 08:44:55 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java182 - Passwordelement cleared 
+20230621 08:44:55 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java166 - Password is entered to the field
+20230621 08:44:59 INFO  [main] salesforce.LoginTest LoginTest.java72 - Remember me checkbox is clicked
+20230621 08:45:07 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - Login Button is clicked
+20230621 08:45:10 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java152 - Actual title is: Home Page ~ Salesforce - Developer Edition
+20230621 08:45:10 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java156 - Title matched in the page
+20230621 08:45:14 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java212 - Mouse hovered to Rajeeni Sarav menu in the window
+20230621 08:45:18 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - Select my account name is clicked
+20230621 08:45:22 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - LogOut is clicked
+20230621 08:45:24 INFO  [main] salesforce.LoginTest LoginTest.java103 - username field found with entered username
+20230621 08:45:24 INFO  [main] salesforce.LoginTest LoginTest.java107 - Matched
+20230621 08:45:25 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java74 - Browser closed
+20230621 08:45:27 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java109 - chromeBrowser opened
+20230621 08:45:29 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java146 - Url entered
+20230621 08:45:29 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java66 - TestInitialize completed
+20230621 08:45:29 INFO  [main] salesforce.LoginTest LoginTest.java114 - case4A_ForgotPassword Started
+20230621 08:45:30 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - Forgot Password is clicked
+20230621 08:45:31 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java182 - usernameelement cleared 
+20230621 08:45:31 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java166 - username is entered to the field
+20230621 08:45:32 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - Continue Button is clicked
+20230621 08:45:37 INFO  [main] salesforce.LoginTest LoginTest.java136 - Passed: Forgot password confirmation message displayed
+20230621 08:45:37 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java74 - Browser closed
+20230621 08:45:39 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java109 - chromeBrowser opened
+20230621 08:45:41 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java146 - Url entered
+20230621 08:45:41 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java66 - TestInitialize completed
+20230621 08:45:41 INFO  [main] salesforce.LoginTest LoginTest.java146 - case4B_ForgotPassword Started
+20230621 08:45:42 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java182 - usernameelement cleared 
+20230621 08:45:43 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java166 - username is entered to the field
+20230621 08:45:45 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java182 - Passwordelement cleared 
+20230621 08:45:45 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java166 - Password is entered to the field
+20230621 08:45:46 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - Login Button is clicked
+20230621 08:45:46 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java152 - Actual title is: Login | Salesforce
+20230621 08:45:46 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java156 - Title matched in the page
+20230621 08:45:47 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java139 - Error message matched
+20230621 08:45:47 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java74 - Browser closed
+20230621 08:45:49 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java109 - chromeBrowser opened
+20230621 08:45:51 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java146 - Url entered
+20230621 08:45:51 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java66 - TestInitialize completed
+20230621 08:45:54 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java182 - usernameelement cleared 
+20230621 08:45:54 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java166 - username is entered to the field
+20230621 08:45:56 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java182 - Passwordelement cleared 
+20230621 08:45:56 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java166 - Password is entered to the field
+20230621 08:46:01 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - Login Button is clicked
+20230621 08:46:01 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java212 - Mouse hovered to Rajeeni Sarav menu in the window
+20230621 08:46:02 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - UserMenu Dropdown is clicked
+20230621 08:46:03 INFO  [main] salesforce.UserMenuDropDownTest UserMenuDropDownTest.java46 - Passed: My Profile Menu found
+20230621 08:46:03 INFO  [main] salesforce.UserMenuDropDownTest UserMenuDropDownTest.java46 - Passed: My Settings Menu found
+20230621 08:46:03 INFO  [main] salesforce.UserMenuDropDownTest UserMenuDropDownTest.java46 - Passed: Developer Console Menu found
+20230621 08:46:03 INFO  [main] salesforce.UserMenuDropDownTest UserMenuDropDownTest.java46 - Passed: Switch to Lightning Experience Menu found
+20230621 08:46:03 INFO  [main] salesforce.UserMenuDropDownTest UserMenuDropDownTest.java46 - Passed: Logout Menu found
+20230621 08:46:03 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java74 - Browser closed
+20230621 08:46:06 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java109 - chromeBrowser opened
+20230621 08:46:09 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java146 - Url entered
+20230621 08:46:09 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java66 - TestInitialize completed
+20230621 08:46:09 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java182 - usernameelement cleared 
+20230621 08:46:09 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java166 - username is entered to the field
+20230621 08:46:11 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java182 - Passwordelement cleared 
+20230621 08:46:11 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java166 - Password is entered to the field
+20230621 08:46:16 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - Login Button is clicked
+20230621 08:46:16 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java212 - Mouse hovered to Rajeeni Sarav menu in the window
+20230621 08:46:16 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - UserMenu Dropdown is clicked
+20230621 08:46:18 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - My Profile is clicked
+20230621 08:46:20 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - editPen is clicked
+20230621 08:46:22 INFO  [main] salesforce.UserMenuDropDownTest UserMenuDropDownTest.java81 - Switched to frame
+20230621 08:46:22 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - aboutTab is clicked
+20230621 08:46:22 INFO  [main] salesforce.UserMenuDropDownTest UserMenuDropDownTest.java92 - Last name changed
+20230621 08:46:23 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - saveAll is clicked
+20230621 08:46:27 INFO  [main] salesforce.UserMenuDropDownTest UserMenuDropDownTest.java106 - on it
+20230621 08:46:27 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - Post Clicking is clicked
+20230621 08:46:28 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - Message Posted is clicked
+20230621 08:46:28 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - File is clicked
+20230621 08:46:28 ERROR [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java200 - Upload Fileis not clicked
+20230621 08:46:37 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java212 - Mouse hovered to  menu in the window
+20230621 08:46:39 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - Add Photo is clicked
+20230621 08:46:40 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java74 - Browser closed
+20230621 08:46:42 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java109 - chromeBrowser opened
+20230621 08:46:45 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java146 - Url entered
+20230621 08:46:45 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java66 - TestInitialize completed
+20230621 08:46:45 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java182 - usernameelement cleared 
+20230621 08:46:45 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java166 - username is entered to the field
+20230621 08:46:47 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java182 - Passwordelement cleared 
+20230621 08:46:47 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java166 - Password is entered to the field
+20230621 08:46:49 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - Login Button is clicked
+20230621 08:46:53 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java212 - Mouse hovered to Rajeeni Sarav menu in the window
+20230621 08:46:53 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - UserMenu Dropdown is clicked
+20230621 08:46:54 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - My Profile is clicked
+20230621 08:46:59 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - Personal is clicked
+20230621 08:47:05 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - DisplayLayoutElement is clicked
+20230621 08:47:13 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - Add to Selected Tabs is clicked
+20230621 08:47:13 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - Save Button is clicked
+20230621 08:47:13 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - Right Drop Down is clicked
+20230621 08:47:14 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - Salesforce Chatter is clicked
+20230621 08:47:20 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - No Thanks is clicked
+20230621 08:47:20 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - Send TO SalesForce is clicked
+20230621 08:47:26 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java74 - Browser closed
+20230621 08:47:27 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java109 - chromeBrowser opened
+20230621 08:47:30 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java146 - Url entered
+20230621 08:47:30 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java66 - TestInitialize completed
+20230621 08:47:30 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java182 - usernameelement cleared 
+20230621 08:47:30 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java166 - username is entered to the field
+20230621 08:47:32 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java182 - Passwordelement cleared 
+20230621 08:47:32 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java166 - Password is entered to the field
+20230621 08:47:34 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - Login Button is clicked
+20230621 08:47:37 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java212 - Mouse hovered to Rajeeni Sarav menu in the window
+20230621 08:47:37 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - UserMenu Dropdown is clicked
+20230621 08:47:37 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - DeveloperConsole is clicked
+20230621 08:47:42 INFO  [main] salesforce.UserMenuDropDownTest UserMenuDropDownTest.java426 - Developer console closed
+20230621 08:47:42 INFO  [main] salesforce.UserMenuDropDownTest UserMenuDropDownTest.java430 - Passed: Switched to Previous window
+20230621 08:47:43 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java74 - Browser closed
+20230621 08:47:45 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java109 - chromeBrowser opened
+20230621 08:47:47 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java146 - Url entered
+20230621 08:47:47 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java66 - TestInitialize completed
+20230621 08:47:47 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java182 - usernameelement cleared 
+20230621 08:47:48 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java166 - username is entered to the field
+20230621 08:47:51 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java182 - Passwordelement cleared 
+20230621 08:47:51 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java166 - Password is entered to the field
+20230621 08:47:52 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - Login Button is clicked
+20230621 08:47:55 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java212 - Mouse hovered to Rajeeni Sarav menu in the window
+20230621 08:47:55 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - UserMenu Dropdown is clicked
+20230621 08:48:00 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - LogoutElement is clicked
+20230621 08:48:00 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java74 - Browser closed
+20230621 08:48:02 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java109 - chromeBrowser opened
+20230621 08:48:04 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java146 - Url entered
+20230621 08:48:04 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java66 - TestInitialize completed
+20230621 08:48:05 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java182 - usernameelement cleared 
+20230621 08:48:05 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java166 - username is entered to the field
+20230621 08:48:07 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java182 - Passwordelement cleared 
+20230621 08:48:07 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java166 - Password is entered to the field
+20230621 08:48:09 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - Login Button is clicked
+20230621 08:48:18 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - Create Account is clicked
+20230621 08:48:19 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java74 - Browser closed
+20230621 08:48:21 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java109 - chromeBrowser opened
+20230621 08:48:24 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java146 - Url entered
+20230621 08:48:24 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java66 - TestInitialize completed
+20230621 08:48:24 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java182 - usernameelement cleared 
+20230621 08:48:24 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java166 - username is entered to the field
+20230621 08:48:26 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java182 - Passwordelement cleared 
+20230621 08:48:26 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java166 - Password is entered to the field
+20230621 08:48:29 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - Login Button is clicked
+20230621 08:48:38 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - Create Account is clicked
+20230621 08:48:39 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java74 - Browser closed
+20230621 08:48:40 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java109 - chromeBrowser opened
+20230621 08:48:43 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java146 - Url entered
+20230621 08:48:43 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java66 - TestInitialize completed
+20230621 08:48:43 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java182 - usernameelement cleared 
+20230621 08:48:43 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java166 - username is entered to the field
+20230621 08:48:46 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java182 - Passwordelement cleared 
+20230621 08:48:46 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java166 - Password is entered to the field
+20230621 08:48:47 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - Login Button is clicked
+20230621 08:48:58 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - Create Account is clicked
+20230621 08:48:59 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java74 - Browser closed
+20230621 08:49:01 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java109 - chromeBrowser opened
+20230621 08:49:03 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java146 - Url entered
+20230621 08:49:03 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java66 - TestInitialize completed
+20230621 08:49:03 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java182 - usernameelement cleared 
+20230621 08:49:03 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java166 - username is entered to the field
+20230621 08:49:06 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java182 - Passwordelement cleared 
+20230621 08:49:06 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java166 - Password is entered to the field
+20230621 08:49:10 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - Login Button is clicked
+20230621 08:49:16 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - Create Account is clicked
+20230621 08:49:17 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java74 - Browser closed
+20230621 08:49:19 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java109 - chromeBrowser opened
+20230621 08:49:21 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java146 - Url entered
+20230621 08:49:21 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java66 - TestInitialize completed
+20230621 08:49:22 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java182 - usernameelement cleared 
+20230621 08:49:23 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java166 - username is entered to the field
+20230621 08:49:25 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java182 - Passwordelement cleared 
+20230621 08:49:25 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java166 - Password is entered to the field
+20230621 08:49:27 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - Login Button is clicked
+20230621 08:49:30 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - accounts is clicked
+20230621 08:49:35 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - Lightning Experience Popup is clicked
+20230621 08:49:39 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - Lightning Experience Popup2 is clicked
+20230621 08:49:40 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - Create Report is clicked
+20230621 08:49:41 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - From Field is clicked
+20230621 08:49:44 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - select_Fromdate is clicked
+20230621 08:49:44 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - To Field is clicked
+20230621 08:49:45 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - Today's Date in To field is clicked
+20230621 08:49:45 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - save  is clicked
+20230621 08:49:50 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java74 - Browser closed
+20230621 08:49:52 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java109 - chromeBrowser opened
+20230621 08:49:55 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java146 - Url entered
+20230621 08:49:55 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java66 - TestInitialize completed
+20230621 08:49:55 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java182 - usernameelement cleared 
+20230621 08:49:56 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java166 - username is entered to the field
+20230621 08:49:59 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java182 - Passwordelement cleared 
+20230621 08:49:59 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java166 - Password is entered to the field
+20230621 08:50:03 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - Login Button is clicked
+20230621 08:50:04 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - Opportunities is clicked
+20230621 08:50:11 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - No Thanks is clicked
+20230621 08:50:12 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - Send TO SalesForce is clicked
+20230621 08:50:12 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java212 - Mouse hovered to All Opportunities
+Closing Next Month
+Closing This Month
+My Opportunities
+New Last Week
+New This Week
+Opportunity Pipeline
+Private
+Recently Viewed Opportunities
+Won menu in the window
+20230621 08:50:12 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - Opportunities DropDown is clicked
+20230621 08:50:12 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java74 - Browser closed
+20230621 08:50:14 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java109 - chromeBrowser opened
+20230621 08:50:16 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java146 - Url entered
+20230621 08:50:16 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java66 - TestInitialize completed
+20230621 08:50:17 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java182 - usernameelement cleared 
+20230621 08:50:17 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java166 - username is entered to the field
+20230621 08:50:19 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java182 - Passwordelement cleared 
+20230621 08:50:20 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java166 - Password is entered to the field
+20230621 08:50:24 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - Login Button is clicked
+20230621 08:50:24 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - Opportunities is clicked
+20230621 08:50:32 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - No Thanks is clicked
+20230621 08:50:33 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - Send TO SalesForce is clicked
+20230621 08:50:34 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - New Opportunities is clicked
+20230621 08:50:37 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - stage is clicked
+20230621 08:50:38 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - stageUserdropdown is clicked
+20230621 08:50:38 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - LeadSource is clicked
+20230621 08:50:38 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - leadSourceUserdropdown is clicked
+20230621 08:50:38 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - PrimaryCampaignsource is clicked
+20230621 08:50:38 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - closeDate is clicked
+20230621 08:50:38 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java212 - Mouse hovered to Today menu in the window
+20230621 08:50:39 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - saveOpportunity is clicked
+20230621 08:50:39 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java152 - Actual title is: Opportunity Edit: All opportunities ~ Salesforce - Developer Edition
+20230621 08:50:40 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java74 - Browser closed
+20230621 08:50:42 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java109 - chromeBrowser opened
+20230621 08:50:45 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java146 - Url entered
+20230621 08:50:45 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java66 - TestInitialize completed
+20230621 08:50:45 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java182 - usernameelement cleared 
+20230621 08:50:45 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java166 - username is entered to the field
+20230621 08:50:47 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java182 - Passwordelement cleared 
+20230621 08:50:47 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java166 - Password is entered to the field
+20230621 08:50:49 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - Login Button is clicked
+20230621 08:50:52 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - Opportunities is clicked
+20230621 08:50:59 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - No Thanks is clicked
+20230621 08:51:00 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - Send TO SalesForce is clicked
+20230621 08:51:01 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - OpportunityPipeline is clicked
+20230621 08:51:01 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java152 - Actual title is: Opportunity Pipeline ~ Salesforce - Developer Edition
+20230621 08:51:01 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java156 - Title matched in the page
+20230621 08:51:01 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java74 - Browser closed
+20230621 08:51:03 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java109 - chromeBrowser opened
+20230621 08:51:06 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java146 - Url entered
+20230621 08:51:06 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java66 - TestInitialize completed
+20230621 08:51:08 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java182 - usernameelement cleared 
+20230621 08:51:08 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java166 - username is entered to the field
+20230621 08:51:10 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java182 - Passwordelement cleared 
+20230621 08:51:10 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java166 - Password is entered to the field
+20230621 08:51:15 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - Login Button is clicked
+20230621 08:51:15 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - Opportunities is clicked
+20230621 08:51:22 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - No Thanks is clicked
+20230621 08:51:23 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - Send TO SalesForce is clicked
+20230621 08:51:24 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - stuckOpportunities is clicked
+20230621 08:51:24 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java152 - Actual title is: Stuck Opportunities ~ Salesforce - Developer Edition
+20230621 08:51:24 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java156 - Title matched in the page
+20230621 08:51:24 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java74 - Browser closed
+20230621 08:51:26 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java109 - chromeBrowser opened
+20230621 08:51:28 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java146 - Url entered
+20230621 08:51:28 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java66 - TestInitialize completed
+20230621 08:51:29 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java182 - usernameelement cleared 
+20230621 08:51:30 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java166 - username is entered to the field
+20230621 08:51:32 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java182 - Passwordelement cleared 
+20230621 08:51:32 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java166 - Password is entered to the field
+20230621 08:51:35 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - Login Button is clicked
+20230621 08:51:37 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - Opportunities is clicked
+20230621 08:51:44 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - No Thanks is clicked
+20230621 08:51:45 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - Send TO SalesForce is clicked
+20230621 08:51:45 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - Interval is clicked
+20230621 08:51:45 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - selectInterval is clicked
+20230621 08:51:45 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - Include is clicked
+20230621 08:51:46 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - selectIncludeOpportunities is clicked
+20230621 08:51:46 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - RunReport is clicked
+20230621 08:51:46 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java152 - Actual title is: Opportunity Report ~ Salesforce - Developer Edition
+20230621 08:51:46 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java156 - Title matched in the page
+20230621 08:51:46 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java74 - Browser closed
+20230621 08:51:48 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java109 - chromeBrowser opened
+20230621 08:51:51 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java146 - Url entered
+20230621 08:51:51 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java66 - TestInitialize completed
+20230621 08:51:51 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java182 - usernameelement cleared 
+20230621 08:51:52 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java166 - username is entered to the field
+20230621 08:51:55 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java182 - Passwordelement cleared 
+20230621 08:51:55 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java166 - Password is entered to the field
+20230621 08:51:57 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - Login Button is clicked
+20230621 08:52:00 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java74 - Browser closed
+20230621 08:52:02 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java109 - chromeBrowser opened
+20230621 08:52:04 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java146 - Url entered
+20230621 08:52:04 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java66 - TestInitialize completed
+20230621 08:52:05 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java182 - usernameelement cleared 
+20230621 08:52:06 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java166 - username is entered to the field
+20230621 08:52:09 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java182 - Passwordelement cleared 
+20230621 08:52:09 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java166 - Password is entered to the field
+20230621 08:52:15 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - Login Button is clicked
+20230621 08:52:16 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java74 - Browser closed
+20230621 08:52:18 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java109 - chromeBrowser opened
+20230621 08:52:20 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java146 - Url entered
+20230621 08:52:20 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java66 - TestInitialize completed
+20230621 08:52:22 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java182 - usernameelement cleared 
+20230621 08:52:22 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java166 - username is entered to the field
+20230621 08:52:24 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java182 - Passwordelement cleared 
+20230621 08:52:24 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java166 - Password is entered to the field
+20230621 08:52:26 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - Login Button is clicked
+20230621 08:52:29 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java74 - Browser closed
+20230621 08:52:31 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java109 - chromeBrowser opened
+20230621 08:52:34 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java146 - Url entered
+20230621 08:52:34 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java66 - TestInitialize completed
+20230621 08:52:35 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java182 - usernameelement cleared 
+20230621 08:52:35 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java166 - username is entered to the field
+20230621 08:52:37 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java182 - Passwordelement cleared 
+20230621 08:52:37 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java166 - Password is entered to the field
+20230621 08:52:40 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - Login Button is clicked
+20230621 08:52:43 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java74 - Browser closed
+20230621 08:52:45 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java109 - chromeBrowser opened
+20230621 08:52:47 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java146 - Url entered
+20230621 08:52:47 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java66 - TestInitialize completed
+20230621 08:52:49 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java182 - usernameelement cleared 
+20230621 08:52:49 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java166 - username is entered to the field
+20230621 08:52:51 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java182 - Passwordelement cleared 
+20230621 08:52:51 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java166 - Password is entered to the field
+20230621 08:52:56 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - Login Button is clicked
+20230621 08:52:57 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java74 - Browser closed
+20230621 08:52:59 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java109 - chromeBrowser opened
+20230621 08:53:01 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java146 - Url entered
+20230621 08:53:01 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java66 - TestInitialize completed
+20230621 08:53:02 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java182 - usernameelement cleared 
+20230621 08:53:03 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java166 - username is entered to the field
+20230621 08:53:05 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java182 - Passwordelement cleared 
+20230621 08:53:05 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java166 - Password is entered to the field
+20230621 08:53:10 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - Login Button is clicked
+20230621 08:53:10 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - Contacts Tab is clicked
+20230621 08:53:18 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - No Thanks is clicked
+20230621 08:53:19 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - Send TO SalesForce is clicked
+20230621 08:53:20 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - New Contact is clicked
+20230621 08:53:20 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java182 - lastNameelement cleared 
+20230621 08:53:20 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java166 - lastName is entered to the field
+20230621 08:53:20 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java182 - AccountNameelement cleared 
+20230621 08:53:20 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java166 - AccountName is entered to the field
+20230621 08:53:21 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - Save Button is clicked
+20230621 08:53:24 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java74 - Browser closed
+20230621 08:53:26 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java109 - chromeBrowser opened
+20230621 08:53:29 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java146 - Url entered
+20230621 08:53:29 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java66 - TestInitialize completed
+20230621 08:53:29 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java182 - usernameelement cleared 
+20230621 08:53:29 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java166 - username is entered to the field
+20230621 08:53:32 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java182 - Passwordelement cleared 
+20230621 08:53:32 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java166 - Password is entered to the field
+20230621 08:53:34 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - Login Button is clicked
+20230621 08:53:37 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - Contact Tab is clicked
+20230621 08:53:46 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - No Thanks is clicked
+20230621 08:53:47 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - Send TO SalesForce is clicked
+20230621 08:53:47 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - Create New View is clicked
+20230621 08:53:47 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java182 - ViewNameelement cleared 
+20230621 08:53:47 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java166 - ViewName is entered to the field
+20230621 08:53:47 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java182 - View Unique Nameelement cleared 
+20230621 08:53:48 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java166 - View Unique Name is entered to the field
+20230621 08:53:48 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - Save Button is clicked
+20230621 08:53:52 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java74 - Browser closed
+20230621 08:53:54 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java109 - chromeBrowser opened
+20230621 08:53:57 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java146 - Url entered
+20230621 08:53:57 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java66 - TestInitialize completed
+20230621 08:53:57 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java182 - usernameelement cleared 
+20230621 08:53:58 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java166 - username is entered to the field
+20230621 08:54:00 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java182 - Passwordelement cleared 
+20230621 08:54:01 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java166 - Password is entered to the field
+20230621 08:54:03 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - Login Button is clicked
+20230621 08:54:05 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - Contact Tab is clicked
+20230621 08:54:14 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - No Thanks is clicked
+20230621 08:54:15 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - Send TO SalesForce is clicked
+20230621 08:54:15 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java74 - Browser closed
+20230621 08:54:17 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java109 - chromeBrowser opened
+20230621 08:54:20 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java146 - Url entered
+20230621 08:54:20 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java66 - TestInitialize completed
+20230621 08:54:22 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java182 - usernameelement cleared 
+20230621 08:54:22 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java166 - username is entered to the field
+20230621 08:54:24 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java182 - Passwordelement cleared 
+20230621 08:54:24 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java166 - Password is entered to the field
+20230621 08:54:29 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - Login Button is clicked
+20230621 08:54:29 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - Contact Tab is clicked
+20230621 08:54:38 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - No Thanks is clicked
+20230621 08:54:39 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - Send TO SalesForce is clicked
+20230621 08:54:42 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java74 - Browser closed
+20230621 08:54:44 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java109 - chromeBrowser opened
+20230621 08:54:47 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java146 - Url entered
+20230621 08:54:47 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java66 - TestInitialize completed
+20230621 08:54:48 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java182 - usernameelement cleared 
+20230621 08:54:49 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java166 - username is entered to the field
+20230621 08:54:51 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java182 - Passwordelement cleared 
+20230621 08:54:51 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java166 - Password is entered to the field
+20230621 08:54:53 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - Login Button is clicked
+20230621 08:54:56 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - Contact Tab is clicked
+20230621 08:55:05 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - No Thanks is clicked
+20230621 08:55:05 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - Send TO SalesForce is clicked
+20230621 08:55:06 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - Recent Contact is clicked
+20230621 08:55:10 INFO  [main] salesforce.ContactsTest ContactsTest.java162 - Selected Contact is displayed with details
+20230621 08:55:10 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java74 - Browser closed
+20230621 08:55:11 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java109 - chromeBrowser opened
+20230621 08:55:14 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java146 - Url entered
+20230621 08:55:14 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java66 - TestInitialize completed
+20230621 08:55:14 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java182 - usernameelement cleared 
+20230621 08:55:14 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java166 - username is entered to the field
+20230621 08:55:16 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java182 - Passwordelement cleared 
+20230621 08:55:16 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java166 - Password is entered to the field
+20230621 08:55:22 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - Login Button is clicked
+20230621 08:55:22 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - Contact Tab is clicked
+20230621 08:55:31 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - No Thanks is clicked
+20230621 08:55:32 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - Send TO SalesForce is clicked
+20230621 08:55:33 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - Create New View is clicked
+20230621 08:55:33 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java182 - View unique nameelement cleared 
+20230621 08:55:33 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java166 - View unique name is entered to the field
+20230621 08:55:34 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - Save Button is clicked
+20230621 08:55:34 INFO  [main] salesforce.ContactsTest ContactsTest.java194 - Error Message is displayed
+20230621 08:55:34 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java74 - Browser closed
+20230621 08:55:36 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java109 - chromeBrowser opened
+20230621 08:55:38 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java146 - Url entered
+20230621 08:55:38 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java66 - TestInitialize completed
+20230621 08:55:39 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java182 - usernameelement cleared 
+20230621 08:55:40 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java166 - username is entered to the field
+20230621 08:55:42 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java182 - Passwordelement cleared 
+20230621 08:55:42 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java166 - Password is entered to the field
+20230621 08:55:48 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - Login Button is clicked
+20230621 08:55:49 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - Contact Tab is clicked
+20230621 08:55:58 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - No Thanks is clicked
+20230621 08:56:00 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - Send TO SalesForce is clicked
+20230621 08:56:00 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - Create New View is clicked
+20230621 08:56:01 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java182 - ABCDelement cleared 
+20230621 08:56:01 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java166 - ABCD is entered to the field
+20230621 08:56:01 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java182 - EFGHelement cleared 
+20230621 08:56:01 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java166 - EFGH is entered to the field
+20230621 08:56:02 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - Cancel Button is clicked
+20230621 08:56:03 INFO  [main] salesforce.ContactsTest ContactsTest.java229 - Cancel button works fine, view not created
+20230621 08:56:04 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java74 - Browser closed
+20230621 08:56:07 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java109 - chromeBrowser opened
+20230621 08:56:09 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java146 - Url entered
+20230621 08:56:09 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java66 - TestInitialize completed
+20230621 08:56:09 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java182 - usernameelement cleared 
+20230621 08:56:09 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java166 - username is entered to the field
+20230621 08:56:12 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java182 - Passwordelement cleared 
+20230621 08:56:12 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java166 - Password is entered to the field
+20230621 08:56:16 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - Login Button is clicked
+20230621 08:56:16 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - Contacts Tab is clicked
+20230621 08:56:26 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - No Thanks is clicked
+20230621 08:56:26 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - Send TO SalesForce is clicked
+20230621 08:56:27 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - New Contact is clicked
+20230621 08:56:27 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java182 - First Nameelement cleared 
+20230621 08:56:27 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java166 - First Name is entered to the field
+20230621 08:56:27 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java182 - Last Nameelement cleared 
+20230621 08:56:27 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java166 - Last Name is entered to the field
+20230621 08:56:27 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java182 - Account Nameelement cleared 
+20230621 08:56:28 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java166 - Account Name is entered to the field
+20230621 08:56:28 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - Save & New Button is clicked
+20230621 08:56:28 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java152 - Actual title is: Contact Edit: New Contact ~ Salesforce - Developer Edition
+20230621 08:56:28 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java156 - Title matched in the page
+20230621 08:56:28 INFO  [main] salesforce.ContactsTest ContactsTest.java264 - Contact Edit: New Contact page is displayed
+20230621 08:56:28 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java74 - Browser closed
+20230621 08:56:30 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java109 - chromeBrowser opened
+20230621 08:56:33 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java146 - Url entered
+20230621 08:56:33 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java66 - TestInitialize completed
+20230621 08:56:34 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java182 - usernameelement cleared 
+20230621 08:56:34 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java166 - username is entered to the field
+20230621 08:56:37 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java182 - Passwordelement cleared 
+20230621 08:56:37 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java166 - Password is entered to the field
+20230621 08:56:43 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - Login Button is clicked
+20230621 08:56:43 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - Home Tab is clicked
+20230621 08:56:51 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - No Thanks is clicked
+20230621 08:56:52 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - Send TO SalesForce is clicked
+20230621 08:56:52 INFO  [main] salesforce.RandomScenarios RandomScenarios.java234 - User Name is displayed with First and Last name.
+20230621 08:56:52 INFO  [main] salesforce.RandomScenarios RandomScenarios.java256 - Date format is displayed as expected.
+20230621 08:56:53 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - Current Date Link is clicked
+20230621 08:56:53 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java152 - Actual title is: Calendar for Rajeeni Sarav ~ Salesforce - Developer Edition
+20230621 08:56:53 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java156 - Title matched in the page
+20230621 08:56:53 INFO  [main] salesforce.RandomScenarios RandomScenarios.java274 - Calender for FirstName and LastName page is displayed
+20230621 08:56:54 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - Click on 8PM is clicked
+20230621 08:56:57 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java152 - Actual title is: Calendar: New Event ~ Salesforce - Developer Edition
+20230621 08:56:57 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java156 - Title matched in the page
+20230621 08:56:57 INFO  [main] salesforce.RandomScenarios RandomScenarios.java294 - New Event page is displayed
+20230621 08:56:57 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - Clicking on Subject Combo is clicked
+20230621 08:56:57 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - Selecting Other Event Type is clicked
+20230621 08:56:58 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java182 - 9:00 PMelement cleared 
+20230621 08:56:58 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java166 - 9:00 PM is entered to the field
+20230621 08:56:59 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - Save Button is clicked
+20230621 08:56:59 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java74 - Browser closed
+20230621 08:57:02 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java109 - chromeBrowser opened
+20230621 08:57:04 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java146 - Url entered
+20230621 08:57:04 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java66 - TestInitialize completed
+20230621 08:57:06 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java182 - usernameelement cleared 
+20230621 08:57:06 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java166 - username is entered to the field
+20230621 08:57:08 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java182 - Passwordelement cleared 
+20230621 08:57:08 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java166 - Password is entered to the field
+20230621 08:57:10 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - Login Button is clicked
+20230621 08:57:14 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - Home Tab is clicked
+20230621 08:57:22 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - No Thanks is clicked
+20230621 08:57:23 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - Send TO SalesForce is clicked
+20230621 08:57:23 INFO  [main] salesforce.RandomScenarios RandomScenarios.java373 - User Name is displayed with First and Last name.
+20230621 08:57:23 INFO  [main] salesforce.RandomScenarios RandomScenarios.java395 - Date format is displayed as expected.
+20230621 08:57:24 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - Current Date Link is clicked
+20230621 08:57:24 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java152 - Actual title is: Calendar for Rajeeni Sarav ~ Salesforce - Developer Edition
+20230621 08:57:24 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java156 - Title matched in the page
+20230621 08:57:24 INFO  [main] salesforce.RandomScenarios RandomScenarios.java413 - Calender for FirstName and LastName page is displayed
+20230621 08:57:25 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - Click on 4PM is clicked
+20230621 08:57:28 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java152 - Actual title is: Calendar: New Event ~ Salesforce - Developer Edition
+20230621 08:57:28 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java156 - Title matched in the page
+20230621 08:57:28 INFO  [main] salesforce.RandomScenarios RandomScenarios.java433 - New Event page is displayed
+20230621 08:57:28 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - Clicking on Subject Combo is clicked
+20230621 08:57:29 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - Selecting Other Event Type is clicked
+20230621 08:57:29 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java182 - Start timeelement cleared 
+20230621 08:57:29 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java166 - Start time is entered to the field
+20230621 08:57:29 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - Checking Recurrence of Events is clicked
+20230621 08:57:29 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - Weekly recurrence is clicked
+20230621 08:57:30 INFO  [main] salesforce.RandomScenarios RandomScenarios.java629 - Current Day is selected
+20230621 08:57:30 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java182 - Recurrence end dateelement cleared 
+20230621 08:57:30 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java166 - Recurrence end date is entered to the field
+20230621 08:57:32 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - Save Button is clicked
+20230621 08:57:33 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - Clicking Month View is clicked
+20230621 08:57:39 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java74 - Browser closed
+20230621 08:57:41 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java109 - chromeBrowser opened
+20230621 08:57:43 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java146 - Url entered
+20230621 08:57:43 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java66 - TestInitialize completed
+20230621 08:57:44 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java182 - usernameelement cleared 
+20230621 08:57:44 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java166 - username is entered to the field
+20230621 08:57:46 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java182 - Passwordelement cleared 
+20230621 08:57:46 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java166 - Password is entered to the field
+20230621 08:57:48 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - Login Button is clicked
+20230621 08:57:51 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - Home Element is clicked
+20230621 08:57:59 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - No Thanks is clicked
+20230621 08:58:00 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - Send TO SalesForce is clicked
+20230621 08:58:00 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java152 - Actual title is: Salesforce - Developer Edition
+20230621 08:58:00 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java156 - Title matched in the page
+20230621 08:58:02 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - Profile Name is clicked
+20230621 08:58:02 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - userMenu is clicked
+20230621 08:58:04 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - myProfile is clicked
+20230621 08:58:04 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java74 - Browser closed
+20230621 08:58:06 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java109 - chromeBrowser opened
+20230621 08:58:09 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java146 - Url entered
+20230621 08:58:09 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java66 - TestInitialize completed
+20230621 08:58:11 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java182 - usernameelement cleared 
+20230621 08:58:11 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java166 - username is entered to the field
+20230621 08:58:14 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java182 - Passwordelement cleared 
+20230621 08:58:14 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java166 - Password is entered to the field
+20230621 08:58:19 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - Login Button is clicked
+20230621 08:58:22 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - Home Element is clicked
+20230621 08:58:30 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - No Thanks is clicked
+20230621 08:58:30 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - Send TO SalesForce is clicked
+20230621 08:58:30 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java152 - Actual title is: Salesforce - Developer Edition
+20230621 08:58:30 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java156 - Title matched in the page
+20230621 08:58:32 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - Profile Name is clicked
+20230621 08:58:33 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - editPen is clicked
+20230621 08:58:33 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - aboutTab is clicked
+20230621 08:58:34 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - saveAll is clicked
+20230621 08:58:35 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java74 - Browser closed
+20230621 08:58:37 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java109 - chromeBrowser opened
+20230621 08:58:40 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java146 - Url entered
+20230621 08:58:40 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java66 - TestInitialize completed
+20230621 08:58:42 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java182 - usernameelement cleared 
+20230621 08:58:42 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java166 - username is entered to the field
+20230621 08:58:44 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java182 - Passwordelement cleared 
+20230621 08:58:44 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java166 - Password is entered to the field
+20230621 08:58:50 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java195 - Login Button is clicked
+20230621 08:58:52 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java74 - Browser closed

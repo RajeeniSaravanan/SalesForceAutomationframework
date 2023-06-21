@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" configfailurepolicy="continue">
+<listeners>
+<listener class-name="utilities.ListenersTest"/>
+</listeners>
+  <test name="chromeTest">
+  <parameter name ="browsername" value="chrome"/>
+    <classes>
+    
+      <class name="salesforce.LoginTest"/>
+      <class name="salesforce.UserMenuDropDownTest"/>
+      <class name="salesforce.CreateAccountTest"/>
+      <class name="salesforce.CreateOpportunityTest"/>
+      <class name="salesforce.Leads"/>
+      <class name="salesforce.ContactsTest"/>
+      <class name="salesforce.RandomScenarios"/> 
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

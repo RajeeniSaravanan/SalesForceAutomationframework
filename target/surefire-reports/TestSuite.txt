@@ -1,0 +1,329 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 38, Failures: 28, Errors: 0, Skipped: 0, Time elapsed: 818.125 s <<< FAILURE! - in TestSuite
+case2_Successful_LoginToSalesForce(salesforce.LoginTest)  Time elapsed: 5.52 s  <<< FAILURE!
+java.lang.AssertionError: Title not matched expected [Home Page ~ Salesforce - Developer Edition] but found []
+	at salesforce.LoginTest.case2_Successful_LoginToSalesForce(LoginTest.java:43)
+
+case7_MySettings_UserMenuDropDown(salesforce.UserMenuDropDownTest)  Time elapsed: 33.779 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Cannot locate element with text: Reports
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SARAS-CNB01', ip: '10.0.0.25', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: driver.version: unknown
+	at salesforce.UserMenuDropDownTest.case7_MySettings_UserMenuDropDown(UserMenuDropDownTest.java:285)
+
+case11_CreateNewView(salesforce.CreateAccountTest)  Time elapsed: 4.794 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: //ul[@id='tabBar']/li[5]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SARAS-CNB01', ip: '10.0.0.25', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 114.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230619081400, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 75660, moz:profile: C:\Users\SARAVA~1.SOM\AppDa..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d23ca523-5abb-4cc2-98ef-b2099d213bbd
+*** Element info: {Using=xpath, value=//ul[@id='tabBar']/li[5]}
+	at salesforce.CreateAccountTest.case11_CreateNewView(CreateAccountTest.java:77)
+
+case12_EditViewView(salesforce.CreateAccountTest)  Time elapsed: 4.757 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: //ul[@id='tabBar']/li[5]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SARAS-CNB01', ip: '10.0.0.25', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 114.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230619081400, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 47120, moz:profile: C:\Users\SARAVA~1.SOM\AppDa..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 9b94fed5-d32a-466d-ae5a-0b034f0eded6
+*** Element info: {Using=xpath, value=//ul[@id='tabBar']/li[5]}
+	at salesforce.CreateAccountTest.case12_EditViewView(CreateAccountTest.java:118)
+
+case13_MergeAccounts(salesforce.CreateAccountTest)  Time elapsed: 4.729 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: //ul[@id='tabBar']/li[5]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SARAS-CNB01', ip: '10.0.0.25', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 114.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230619081400, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 60468, moz:profile: C:\Users\SARAVA~1.SOM\AppDa..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 5eca8a31-4ece-4320-9ead-c272ef201a6d
+*** Element info: {Using=xpath, value=//ul[@id='tabBar']/li[5]}
+	at salesforce.CreateAccountTest.case13_MergeAccounts(CreateAccountTest.java:182)
+
+case14_CreateAccountReport(salesforce.CreateAccountTest)  Time elapsed: 5.167 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: //*[@id="Account_Tab"]/a
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SARAS-CNB01', ip: '10.0.0.25', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 114.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230619081400, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 79780, moz:profile: C:\Users\SARAVA~1.SOM\AppDa..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 69884680-b388-4f09-94e9-d444409b00f3
+*** Element info: {Using=xpath, value=//*[@id="Account_Tab"]/a}
+	at salesforce.CreateAccountTest.case14_CreateAccountReport(CreateAccountTest.java:239)
+
+case15_OpportunitiesDropDown(salesforce.CreateOpportunityTest)  Time elapsed: 5.14 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: //li[@id='Opportunity_Tab']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SARAS-CNB01', ip: '10.0.0.25', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 114.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230619081400, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 84616, moz:profile: C:\Users\SARAVA~1.SOM\AppDa..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 43d7c34d-bd6b-48a1-8c27-3485e814b96d
+*** Element info: {Using=xpath, value=//li[@id='Opportunity_Tab']}
+	at salesforce.CreateOpportunityTest.case15_OpportunitiesDropDown(CreateOpportunityTest.java:16)
+
+case16_CreateNewOpty(salesforce.CreateOpportunityTest)  Time elapsed: 4.706 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: //*[@id="Opportunity_Tab"]/a
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SARAS-CNB01', ip: '10.0.0.25', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 114.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230619081400, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 37808, moz:profile: C:\Users\SARAVA~1.SOM\AppDa..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e4f3dcd5-e39d-4b83-b63d-3c868d44a0ed
+*** Element info: {Using=xpath, value=//*[@id="Opportunity_Tab"]/a}
+	at salesforce.CreateOpportunityTest.case16_CreateNewOpty(CreateOpportunityTest.java:54)
+
+case17_TestOpportunityFileReport(salesforce.CreateOpportunityTest)  Time elapsed: 5.444 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: //*[@id="Opportunity_Tab"]/a
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SARAS-CNB01', ip: '10.0.0.25', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 114.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230619081400, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 72072, moz:profile: C:\Users\SARAVA~1.SOM\AppDa..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 287f17f6-033e-4ecc-b457-dc6e92d22ee5
+*** Element info: {Using=xpath, value=//*[@id="Opportunity_Tab"]/a}
+	at salesforce.CreateOpportunityTest.case17_TestOpportunityFileReport(CreateOpportunityTest.java:133)
+
+case18_TestStuckOpportunityReport(salesforce.CreateOpportunityTest)  Time elapsed: 4.768 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: //*[@id="Opportunity_Tab"]/a
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SARAS-CNB01', ip: '10.0.0.25', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 114.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230619081400, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 68524, moz:profile: C:\Users\SARAVA~1.SOM\AppDa..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 31f845ce-84d9-4814-9dfe-6c832d9746e0
+*** Element info: {Using=xpath, value=//*[@id="Opportunity_Tab"]/a}
+	at salesforce.CreateOpportunityTest.case18_TestStuckOpportunityReport(CreateOpportunityTest.java:155)
+
+case19_TestQuarterlySummaryReport(salesforce.CreateOpportunityTest)  Time elapsed: 4.548 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: //*[@id="Opportunity_Tab"]/a
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SARAS-CNB01', ip: '10.0.0.25', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 114.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230619081400, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 65964, moz:profile: C:\Users\SARAVA~1.SOM\AppDa..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 0a4cf350-6e01-45cd-a972-b75f8dc9e19c
+*** Element info: {Using=xpath, value=//*[@id="Opportunity_Tab"]/a}
+	at salesforce.CreateOpportunityTest.case19_TestQuarterlySummaryReport(CreateOpportunityTest.java:178)
+
+case20_LeadsTab(salesforce.Leads)  Time elapsed: 4.869 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: //li[@id='Lead_Tab']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SARAS-CNB01', ip: '10.0.0.25', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 114.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230619081400, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 76764, moz:profile: C:\Users\SARAVA~1.SOM\AppDa..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 17851a26-36c6-4683-809f-d63df2595c0a
+*** Element info: {Using=xpath, value=//li[@id='Lead_Tab']}
+	at salesforce.Leads.case20_LeadsTab(Leads.java:16)
+
+case21_LeadsSelectView(salesforce.Leads)  Time elapsed: 4.724 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: //*[@id="Lead_Tab"]/a
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SARAS-CNB01', ip: '10.0.0.25', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 114.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230619081400, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 50240, moz:profile: C:\Users\SARAVA~1.SOM\AppDa..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: bf68d74d-ad48-4f51-89d5-7d380d055185
+*** Element info: {Using=xpath, value=//*[@id="Lead_Tab"]/a}
+	at salesforce.Leads.case21_LeadsSelectView(Leads.java:43)
+
+case22_DefaultView(salesforce.Leads)  Time elapsed: 5.285 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: //*[@id="Lead_Tab"]/a
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SARAS-CNB01', ip: '10.0.0.25', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 114.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230619081400, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 78688, moz:profile: C:\Users\SARAVA~1.SOM\AppDa..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 9e6658bf-baca-4590-a577-36c40de8d997
+*** Element info: {Using=xpath, value=//*[@id="Lead_Tab"]/a}
+	at salesforce.Leads.case22_DefaultView(Leads.java:83)
+
+case23_TodaysLeads(salesforce.Leads)  Time elapsed: 4.844 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: //*[@id="Lead_Tab"]/a
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SARAS-CNB01', ip: '10.0.0.25', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 114.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230619081400, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 75976, moz:profile: C:\Users\SARAVA~1.SOM\AppDa..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 2ac40cd3-74f2-4b9d-a85e-c12b91dce5b7
+*** Element info: {Using=xpath, value=//*[@id="Lead_Tab"]/a}
+	at salesforce.Leads.case23_TodaysLeads(Leads.java:155)
+
+case24_CheckNewButtonOnLeadsPage(salesforce.Leads)  Time elapsed: 4.866 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: //*[@id="Lead_Tab"]/a
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SARAS-CNB01', ip: '10.0.0.25', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 114.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230619081400, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 75876, moz:profile: C:\Users\SARAVA~1.SOM\AppDa..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: b65d335c-a117-48ef-9638-7405dfb5366f
+*** Element info: {Using=xpath, value=//*[@id="Lead_Tab"]/a}
+	at salesforce.Leads.case24_CheckNewButtonOnLeadsPage(Leads.java:193)
+
+case25_CreateNewContact(salesforce.ContactsTest)  Time elapsed: 4.929 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: //li[@id='Contact_Tab']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SARAS-CNB01', ip: '10.0.0.25', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 114.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230619081400, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 71968, moz:profile: C:\Users\SARAVA~1.SOM\AppDa..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 36a8f956-1d3c-411e-8bc8-6c5023b820f4
+*** Element info: {Using=xpath, value=//li[@id='Contact_Tab']}
+	at salesforce.ContactsTest.case25_CreateNewContact(ContactsTest.java:19)
+
+case26_CreateNewViewInContactPage(salesforce.ContactsTest)  Time elapsed: 5.142 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: //div[@id='tabContainer']/nav/ul/li[@id='Contact_Tab']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SARAS-CNB01', ip: '10.0.0.25', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 114.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230619081400, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 69828, moz:profile: C:\Users\SARAVA~1.SOM\AppDa..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: bd3fd772-4df7-4215-acc1-2d89bf199bff
+*** Element info: {Using=xpath, value=//div[@id='tabContainer']/nav/ul/li[@id='Contact_Tab']}
+	at salesforce.ContactsTest.case26_CreateNewViewInContactPage(ContactsTest.java:52)
+
+case27_RecentlyCreatedContactInContactPage(salesforce.ContactsTest)  Time elapsed: 7.927 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: //div[@id='tabContainer']/nav/ul/li[@id='Contact_Tab']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SARAS-CNB01', ip: '10.0.0.25', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 114.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230619081400, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 74216, moz:profile: C:\Users\SARAVA~1.SOM\AppDa..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: ad4d9bc4-1edb-4201-b332-509f528a6585
+*** Element info: {Using=xpath, value=//div[@id='tabContainer']/nav/ul/li[@id='Contact_Tab']}
+	at salesforce.ContactsTest.case27_RecentlyCreatedContactInContactPage(ContactsTest.java:91)
+
+case28_CheckMyContactsInContactPage(salesforce.ContactsTest)  Time elapsed: 4.812 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: //div[@id='tabContainer']/nav/ul/li[@id='Contact_Tab']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SARAS-CNB01', ip: '10.0.0.25', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 114.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230619081400, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 79588, moz:profile: C:\Users\SARAVA~1.SOM\AppDa..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: b72c0a22-5bf9-4d0c-a83b-b78e3cc40657
+*** Element info: {Using=xpath, value=//div[@id='tabContainer']/nav/ul/li[@id='Contact_Tab']}
+	at salesforce.ContactsTest.case28_CheckMyContactsInContactPage(ContactsTest.java:115)
+
+case29_CheckMyContactsInContactPage(salesforce.ContactsTest)  Time elapsed: 5.175 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: //div[@id='tabContainer']/nav/ul/li[@id='Contact_Tab']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SARAS-CNB01', ip: '10.0.0.25', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 114.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230619081400, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 82052, moz:profile: C:\Users\SARAVA~1.SOM\AppDa..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: c2887b4e-6630-4286-85df-17087557dac4
+*** Element info: {Using=xpath, value=//div[@id='tabContainer']/nav/ul/li[@id='Contact_Tab']}
+	at salesforce.ContactsTest.case29_CheckMyContactsInContactPage(ContactsTest.java:145)
+
+case30_CheckErrorMessageInContactPage(salesforce.ContactsTest)  Time elapsed: 6.201 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: //div[@id='tabContainer']/nav/ul/li[@id='Contact_Tab']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SARAS-CNB01', ip: '10.0.0.25', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 114.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230619081400, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 80248, moz:profile: C:\Users\SARAVA~1.SOM\AppDa..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: be9a1a4e-38e2-4e44-9a44-ae63a3cf47f3
+*** Element info: {Using=xpath, value=//div[@id='tabContainer']/nav/ul/li[@id='Contact_Tab']}
+	at salesforce.ContactsTest.case30_CheckErrorMessageInContactPage(ContactsTest.java:173)
+
+case31_CheckCancelButtonInCreateNewView(salesforce.ContactsTest)  Time elapsed: 4.622 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: //div[@id='tabContainer']/nav/ul/li[@id='Contact_Tab']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SARAS-CNB01', ip: '10.0.0.25', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 114.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230619081400, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 59592, moz:profile: C:\Users\SARAVA~1.SOM\AppDa..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d82a66c4-c0b1-4681-a081-e19105faa3ef
+*** Element info: {Using=xpath, value=//div[@id='tabContainer']/nav/ul/li[@id='Contact_Tab']}
+	at salesforce.ContactsTest.case31_CheckCancelButtonInCreateNewView(ContactsTest.java:205)
+
+case32_saveAndNewButtonInNewContactpage(salesforce.ContactsTest)  Time elapsed: 3.266 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: //div[@id='tabContainer']/nav/ul/li[@id='Contact_Tab']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SARAS-CNB01', ip: '10.0.0.25', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 114.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230619081400, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 81552, moz:profile: C:\Users\SARAVA~1.SOM\AppDa..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 2354c749-b461-4349-be1d-ca673cfe3b3d
+*** Element info: {Using=xpath, value=//div[@id='tabContainer']/nav/ul/li[@id='Contact_Tab']}
+	at salesforce.ContactsTest.case32_saveAndNewButtonInNewContactpage(ContactsTest.java:240)
+
+case36_BlockingEventInCalendar(salesforce.RandomScenarios)  Time elapsed: 24.576 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: //div[2]/ul/li[5]/a
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SARAS-CNB01', ip: '10.0.0.25', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 114.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230619081400, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 66804, moz:profile: C:\Users\SARAVA~1.SOM\AppDa..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 6e8f4e00-98c5-41e1-b334-9ff343704476
+*** Element info: {Using=xpath, value=//div[2]/ul/li[5]/a}
+	at salesforce.RandomScenarios.case36_BlockingEventInCalendar(RandomScenarios.java:320)
+
+case37_BlockingEventRecurrence(salesforce.RandomScenarios)  Time elapsed: 23.85 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: //div[2]/ul/li[5]/a
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SARAS-CNB01', ip: '10.0.0.25', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 114.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230619081400, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 61572, moz:profile: C:\Users\SARAVA~1.SOM\AppDa..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 9b05b015-0134-48b4-a353-eba6164e66db
+*** Element info: {Using=xpath, value=//div[2]/ul/li[5]/a}
+	at salesforce.RandomScenarios.case37_BlockingEventRecurrence(RandomScenarios.java:459)
+
+case_34_EditedLastNameVerification(salesforce.RandomScenarios)  Time elapsed: 4.904 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: //li[@id='home_Tab']/a
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SARAS-CNB01', ip: '10.0.0.25', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 114.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230619081400, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 66796, moz:profile: C:\Users\SARAVA~1.SOM\AppDa..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 0b96e26a-5f0d-480f-91b9-e0ea48433dd6
+*** Element info: {Using=xpath, value=//li[@id='home_Tab']/a}
+	at salesforce.RandomScenarios.case_34_EditedLastNameVerification(RandomScenarios.java:77)
+
+case_35_CustomizeTabVerification(salesforce.RandomScenarios)  Time elapsed: 5.217 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: //li[@id="AllTab_Tab"]//a
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SARAS-CNB01', ip: '10.0.0.25', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 114.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230619081400, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 63820, moz:profile: C:\Users\SARAVA~1.SOM\AppDa..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d956cc39-7823-4ab2-95a1-1971719ad6a5
+*** Element info: {Using=xpath, value=//li[@id="AllTab_Tab"]//a}
+	at salesforce.RandomScenarios.case_35_CustomizeTabVerification(RandomScenarios.java:151)
+
